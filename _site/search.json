@@ -1,0 +1,32 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nhello there!\n",
+    "section": "",
+    "text": "hello there!\n\n\nThanks for stopping by! I am a data visualization engineer who specializes in human-centered, accessible development in R Shiny and Quarto. Programming in R is my favorite thing (aside from my lovely children, husband, and hoofed friends). I also like chess, puzzles, and Avatar the Last Airbender.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntest\n\n\ntest\n\n\ntest",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "Hello there!",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "work.html",
+    "href": "work.html",
+    "title": "",
+    "section": "",
+    "text": "This is another test yahoo!",
+    "crumbs": [
+      "Work"
+    ]
+  }
+]

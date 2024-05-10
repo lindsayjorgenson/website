@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  sidebar:
+    style: "docked"
+    search: false
+    logo: images/logo.png
+    contents:
+      - text: "About"
+        href: index.qmd
+      - text: "Work"
+        href: work.qmd
+      - text: "Skills"
+        href: skills.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    border: true
+    left: "Something to add later"
+
+format:
+  html:
+    theme: [default, my_styles.scss]
+    css: styles.css
+    mainfont: Jost
+    page-layout: full
+    grid:
+      body-width: 1050px
+      margin-width: 0px
+
+
+
+

@@ -1,0 +1,44 @@
+```{r}
+#| echo: false
+library(bsutils)
+library(htmltools)
+```
+
+::: {.grid}
+
+::: {.g-col-7 class="about-column"}
+![](images/headshot.png){fig-alt="Headshot of Lindsay Jorgenson, a woman with a slight smile, short, dark brown hair with very short bangs, and red lipstick, quite stylish indeed." width="700"}
+
+<h1>hello there!</h1>
+
+<p>Thanks for stopping by! I am a data visualization engineer who specializes in human-centered, accessible development in R Shiny and Quarto. Programming in R is my favorite thing (aside from my lovely children, husband, and hoofed friends). I also like chess, puzzles, and Avatar the Last Airbender.</p>
+```{=html}
+<hr>
+```
+:::
+
+::: {.g-col-5 class="carousel-column"}
+<center>
+```{r}
+#| echo: false
+bsutils::carousel(
+  indicators = TRUE,
+  controls = FALSE,
+  class = "carousel-dark",
+  bsutils::carouselItem(
+    p("test"),
+    interval = 60000L
+  ),
+  bsutils::carouselItem(
+    p("test"),
+    interval = 60000L
+  ),
+  bsutils::carouselItem(
+    p("test"),
+    interval = 60000L
+  )
+)
+```
+</center>
+:::
+:::

@@ -1,0 +1,91 @@
+/* css styles */
+
+
+
+p, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost" !important;
+}
+
+h1 {
+  font-family: "Jost" !important;
+  color: #EE3982 !important;
+  font-weight: 600 !important;
+  font-style: italic
+}
+
+hr {
+  color: #DC4C81 !important;
+  opacity: 1 !important;
+  margin-top: 40px !important;
+}
+
+
+a {
+  font-size: 1.3em !important;
+  font-weight: 300 !important;
+}
+
+p {
+  font-size: 1.1em !important;
+  line-height: 1.6em !important;
+  color: #3D3D3D !important;
+  font-weight: 300 !important;
+}
+
+.sidebar-logo {
+  position: absolute;
+  top: 0px;
+  width: 50%;
+  left: 25%;
+}
+
+div.sidebar-item-container .active, div.sidebar-item-container .show>.nav-link, div.sidebar-item-container .sidebar-link>code {
+  font-weight: 700 !important;
+  color: ##FFF3F2 !important;
+  border-bottom: 2px solid #FFF3F2 !important;
+  margin-left: 28%;
+  line-height: 1.8em !important;
+  margin-right: 28%;
+}
+
+div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents, nav.sidebar.sidebar-navigation:not(.rollup) {
+  background-color: #597A59 !important;
+}
+
+
+#quarto-sidebar {
+  text-align: center !important;
+}
+
+.mt-1 {
+  margin-top: 8rem !important;
+}
+
+.sidebar-navigation a {
+  color: #fff !important;
+  line-height: 1.8em !important;
+  border-bottom: 2px transparent !important;
+}
+
+.sidebar-item-text {
+  margin-top: 3em !important;
+}
+
+footer.footer .nav-footer, #quarto-header>nav {
+  background-color: #E8C9BF !important;
+}
+
+.about-column {
+  padding-left: 20% !important;
+  padding-top: 5% !important;
+}
+
+.carousel-column {
+  padding-left: 15% !important;
+  padding-top: 10% !important;
+}
+
+
+#quarto-document-content {
+  width: 100% !important;
+}
