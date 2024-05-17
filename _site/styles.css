@@ -4,6 +4,7 @@
 
 p, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Jost" !important;
+  text-align: left;
 }
 
 h1 {
@@ -17,6 +18,7 @@ hr {
   color: #DC4C81 !important;
   opacity: 1 !important;
   margin-top: 40px !important;
+  border-top: 1.5px solid !important;
 }
 
 
@@ -31,6 +33,7 @@ p {
   color: #3D3D3D !important;
   font-weight: 300 !important;
 }
+
 
 .sidebar-logo {
   position: absolute;
@@ -76,16 +79,109 @@ footer.footer .nav-footer, #quarto-header>nav {
 }
 
 .about-column {
-  padding-left: 20% !important;
+  padding-left: 22% !important;
   padding-top: 5% !important;
+  padding-right: 3.2% !important;
 }
 
 .carousel-column {
-  padding-left: 15% !important;
+  padding-left: 25% !important;
   padding-top: 10% !important;
+  padding-right: 15% !important
+  background-color: #4F7B56 !important;
 }
 
 
 #quarto-document-content {
   width: 100% !important;
+}
+
+
+::selection {
+  color: #fff;
+  background: #EE3982;
+}
+
+
+.card-header {
+  background-color: transparent !important;
+}
+
+h2, .h2 {
+  border-bottom: none !important;
+}
+
+.card {
+  border: none !important;
+  /* border: 1px solid #4F7B56 !important; */
+  /* border-radius: 50px; */
+  --bs-card-border-color: #EE3982 !important;
+  --bs-card-border-width: 1.5px !important;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #EE3982 !important;
+}
+
+ #links a {
+    display: block;
+    font-size: 1.1em !important;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #E5146C;
+    border-radius: 0 0 25px 25px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    margin-top: -17px !important;
+  }
+
+  #links a:hover,
+  #links a.active {
+    background-color: #E5146C;
+    color: white;
+    border: 2px solid #E5146C;
+    margin-top: -17px !important;
+    font-size: 1.1em !important;
+  }
+
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #E5146C;
+    margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+    #links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #4F7B56;
+        padding: 10px 0;
+        z-index: 1;
+    }
+    .hamburger {
+        display: flex;
+    }
+    #links.show {
+        display: flex;
+    }
+}
+
+@media (min-width: 769px) {
+    #links {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+    }
 }

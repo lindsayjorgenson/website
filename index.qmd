@@ -7,7 +7,7 @@ library(htmltools)
 ::: {.grid}
 
 ::: {.g-col-7 class="about-column"}
-![](images/headshot.png){fig-alt="Headshot of Lindsay Jorgenson, a woman with a slight smile, short, dark brown hair with very short bangs, and red lipstick, quite stylish indeed." width="700"}
+![](images/headshot.png){fig-alt="Headshot of Lindsay Jorgenson, a woman in her mid-30's with a slight smile, short, dark brown hair with very short bangs, and red lipstick." width="700"}
 
 <h1>hello there!</h1>
 
@@ -15,30 +15,39 @@ library(htmltools)
 ```{=html}
 <hr>
 ```
+
+```{=html}
+<div class="menu-container">
+    <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div id="links">
+        <a href="#" data-content="content1">Education</a>
+        <a href="#" data-content="content2">Skills</a>
+        <a href="#" data-content="content3">Experience</a>
+        <a href="#" data-content="content4">Awards</a>
+    </div>
+</div>
+```
+
+
+
+
 :::
 
 ::: {.g-col-5 class="carousel-column"}
-<center>
-```{r}
-#| echo: false
-bsutils::carousel(
-  indicators = TRUE,
-  controls = FALSE,
-  class = "carousel-dark",
-  bsutils::carouselItem(
-    p("test"),
-    interval = 60000L
-  ),
-  bsutils::carouselItem(
-    p("test"),
-    interval = 60000L
-  ),
-  bsutils::carouselItem(
-    p("test"),
-    interval = 60000L
-  )
-)
-```
-</center>
+<div id="content" style="flex: 3; padding: 20px; background-color: #4F7B56; color: white;">
+
+  <div id="content1" class="content-item">This is the content for Education.</div>
+
+  <div id="content2" class="content-item" style="display: none;">This is the content for Skills.</div>
+
+  <div id="content3" class="content-item" style="display: none;">This is the content for Experience.</div>
+
+  <div id="content4" class="content-item" style="display: none;">This is the content for Awards.</div>
+
+</div>
 :::
 :::

@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,6 +67,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id="></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '', { 'anonymize_ip': true});
+</script>
+<script type="text/javascript" src="link_content.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -135,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="grid">
 <div class="g-col-7 about-column">
-<p><img src="images/headshot.png" class="img-fluid" alt="Headshot of Lindsay Jorgenson, a woman with a slight smile, short, dark brown hair with very short bangs, and red lipstick, quite stylish indeed." width="700"></p>
+<p><img src="images/headshot.png" class="img-fluid" alt="Headshot of Lindsay Jorgenson, a woman in her mid-30's with a slight smile, short, dark brown hair with very short bangs, and red lipstick." width="700"></p>
 <h1>
 hello there!
 </h1>
@@ -143,32 +154,35 @@ hello there!
 Thanks for stopping by! I am a data visualization engineer who specializes in human-centered, accessible development in R Shiny and Quarto. Programming in R is my favorite thing (aside from my lovely children, husband, and hoofed friends). I also like chess, puzzles, and Avatar the Last Airbender.
 </p>
 <hr>
+<div class="menu-container">
+    <div class="hamburger" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <div id="links">
+        <a href="#" data-content="content1">Education</a>
+        <a href="#" data-content="content2">Skills</a>
+        <a href="#" data-content="content3">Experience</a>
+        <a href="#" data-content="content4">Awards</a>
+    </div>
+</div>
 </div>
 <div class="g-col-5 carousel-column">
-<center>
-<div class="cell">
-<div class="cell-output-display">
-<div id="watcxyjlfo" class="carousel slide carousel-dark" data-bs-ride="carousel">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#watcxyjlfo" data-bs-slide-to="0" class="active" aria-current="true"></button>
-<button type="button" data-bs-target="#watcxyjlfo" data-bs-slide-to="1"></button>
-<button type="button" data-bs-target="#watcxyjlfo" data-bs-slide-to="2"></button>
+<div id="content" style="flex: 3; padding: 20px; background-color: #4F7B56; color: white;">
+<div id="content1" class="content-item">
+This is the content for Education.
 </div>
-<div class="carousel-inner">
-<div class="carousel-item  active" data-bs-interval="60000">
-<p>test</p>
+<div id="content2" class="content-item" style="display: none;">
+This is the content for Skills.
 </div>
-<div class="carousel-item " data-bs-interval="60000">
-<p>test</p>
+<div id="content3" class="content-item" style="display: none;">
+This is the content for Experience.
 </div>
-<div class="carousel-item " data-bs-interval="60000">
-<p>test</p>
+<div id="content4" class="content-item" style="display: none;">
+This is the content for Awards.
 </div>
 </div>
-</div>
-</div>
-</div>
-</center>
 </div>
 </div>
 
@@ -256,7 +270,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/www\.lindsayjorgenson\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

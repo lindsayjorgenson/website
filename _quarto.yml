@@ -2,6 +2,8 @@ project:
   type: website
 
 website:
+  site-url: https://www.lindsayjorgenson.com
+
   sidebar:
     style: "docked"
     search: false
@@ -20,6 +22,13 @@ website:
     border: true
     left: "Something to add later"
 
+
+  favicon: images/favicon.png
+
+  google-analytics:
+    tracking-id: ""
+    anonymize-ip: true
+
 format:
   html:
     theme: [default, my_styles.scss]
@@ -27,9 +36,10 @@ format:
     mainfont: Jost
     page-layout: full
     grid:
-      body-width: 1050px
+      sidebar-width: 250px
+      body-width: 1450px
       margin-width: 0px
-
-
-
+      gutter-width: 0px
+    include-in-header:
+      text: <script type="text/javascript" src="link_content.js"></script>
 
