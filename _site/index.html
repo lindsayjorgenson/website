@@ -145,8 +145,8 @@ gtag('config', '', { 'anonymize_ip': true});
 
 
 <div class="grid">
-<div class="g-col-7 about-column">
-<p><img src="images/headshot.png" class="img-fluid" alt="Headshot of Lindsay Jorgenson, a woman in her mid-30's with a slight smile, short, dark brown hair with very short bangs, and red lipstick." width="700"></p>
+<div class="g-col-8 about-column">
+<p><img src="images/headshot.png" class="img-fluid" alt="Headshot of Lindsay Jorgenson, a woman in her mid-30's with a slight smile, short, dark brown hair with very short bangs, and red lipstick." width="600"></p>
 <h1>
 hello there!
 </h1>
@@ -155,11 +155,11 @@ Thanks for stopping by! I am a data visualization engineer who specializes in hu
 </p>
 <hr>
 <div class="menu-container">
-    <div class="hamburger" onclick="toggleMenu()">
+    <button class="hamburger" aria-label="Toggle menu" onclick="toggleMenu()">
         <div class="bar"></div>
         <div class="bar"></div>
         <div class="bar"></div>
-    </div>
+    </button>
     <div id="links">
         <a href="#" data-content="content1">Education</a>
         <a href="#" data-content="content2">Skills</a>
@@ -168,20 +168,50 @@ Thanks for stopping by! I am a data visualization engineer who specializes in hu
     </div>
 </div>
 </div>
-<div class="g-col-5 carousel-column">
-<div id="content" style="flex: 3; padding: 20px; background-color: #4F7B56; color: white;">
-<div id="content1" class="content-item">
-This is the content for Education.
-</div>
-<div id="content2" class="content-item" style="display: none;">
-This is the content for Skills.
-</div>
-<div id="content3" class="content-item" style="display: none;">
-This is the content for Experience.
-</div>
-<div id="content4" class="content-item" style="display: none;">
-This is the content for Awards.
-</div>
+<div class="g-col-4 my-content">
+<div id="content">
+
+  <div id="content1" class="content-item">
+  
+  <center>
+  <b>2008 – 2011</b> <br>
+  University of Kansas <br>
+  BA, Psychology + Art <br> <br>
+  
+  <b>2012 – 2015</b> <br>
+  Washington Univ. in St. Louis <br>
+  Master of Public Health <br> <br>
+  
+  <b>2012 – 2015</b> <br>
+  Washington Univ. in St. Louis <br>
+  Master of Social Work <br> 
+  </center>
+  
+  </div>
+
+  <div id="content2" class="content-item" style="display: none;">
+    
+    <div class="container">
+        <div class="select-wrapper">
+            <select id="skillCategory" onchange="updateSkills()">
+                <option value="rProgramming">All Things R</option>
+                <option value="dataVisualization">Data Viz</option>
+            </select>
+        </div>
+        <div id="skillsContainer" class="skills-container">
+            <!-- Skills will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </div>
+
+  <div id="content3" class="content-item" style="display: none;">
+  </div>
+
+  <div id="content4" class="content-item" style="display: none;">This is the content for Awards.</div>
+
 </div>
 </div>
 </div>

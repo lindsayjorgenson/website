@@ -1,10 +1,8 @@
 /* css styles */
 
 
-
 p, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Jost" !important;
-  text-align: left;
 }
 
 h1 {
@@ -78,23 +76,44 @@ footer.footer .nav-footer, #quarto-header>nav {
   background-color: #E8C9BF !important;
 }
 
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000; /* Ensure the footer is in front of everything else */
+}
+
+
+.my-content {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding: 5% !important;
+  background-color: #ebebe4; /* Background color for the second column */
+  flex: 5;
+  color: #222326; /* Text color for readability */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  box-sizing: border-box; /* Ensure padding is included in the width/height */
+  height: 100vh; /* Ensure this column takes up the full viewport height */
+  overflow: hidden; /* Prevent this column from causing scrolling */
+}
+
+#content2 {
+  margin-left: -40px !important;
+}
+
+
 .about-column {
   padding-left: 22% !important;
   padding-top: 5% !important;
-  padding-right: 3.2% !important;
+  padding-right: 18% !important;
 }
 
-.carousel-column {
-  padding-left: 25% !important;
-  padding-top: 10% !important;
-  padding-right: 15% !important
-  background-color: #4F7B56 !important;
-}
-
-
-#quarto-document-content {
-  width: 100% !important;
-}
 
 
 ::selection {
@@ -167,9 +186,30 @@ h2, .h2 {
         top: 50px;
         left: 0;
         background-color: #4F7B56;
+
         padding: 10px 0;
+        font-size: 1.1em !important;
         z-index: 1;
     }
+    #links a {
+    display: block;
+    font-size: 1.1em !important;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff !important;
+    border-radius: 0 0 0px 0px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    margin-top: -17px !important;
+    border: none !important;
+  }
+  #links a:hover,
+  #links a.active {
+    background-color: #fff;
+    color: #4F7B56 !important;
+    font-size: 1.1em !important;
+    border: none !important;
+  }
     .hamburger {
         display: flex;
     }
@@ -184,4 +224,127 @@ h2, .h2 {
         position: static;
         flex-direction: row;
     }
+}
+
+button {
+  border: none !important;
+}
+
+#quarto-content>* {
+  padding: 0px !important;
+}
+
+
+main {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  min-height: 100vh;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden; /* Prevent unnecessary scrolling */
+}
+
+
+
+/* for the skills drop down menu */
+
+
+.select-wrapper {
+    position: absolute;
+    top: 150px;
+    right: 15%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 150px; /* Adjust width as needed */
+}
+
+.select-wrapper select {
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #E5146C;
+    border-radius: 25px;
+    background-color: #fff;
+    color: #E5146C;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.select-wrapper::after {
+    content: '▼';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #E5146C;
+    font-size: 16px;
+}
+.skills-container {
+    margin-top: 60px; /* Adjust margin to ensure space for the dropdown */
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.skill span {
+    width: 200px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.line {
+    flex-grow: 1;
+    width: 100px !important;
+    height: 2px;
+    background-color: #ccc;
+    position: relative;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #E5146C;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    transition: transform 0.3s ease;
+}
+
+.dot:hover {
+    transform: scale(1.5);
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 140px;
+    background-color: #E5146C;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the dot */
+    left: 50%;
+    margin-left: -70px; /* Center the tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.dot:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
 }
