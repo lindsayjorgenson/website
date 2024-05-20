@@ -86,12 +86,13 @@ library(htmltools)
             <!-- Skills will be dynamically inserted here -->
         </div>
     </div>
-
-    <script src="script.js"></script>
 </body>
   </div>
 
   <div id="content3" class="content-item" style="display: none;">
+  <b> Resume </b> <br>
+  My experience is documented in my CV, which you can download <a href="_files/jorgenson-cv.pdf" download="jorgenson_cv.pdf">here.</a>
+  <br> <hr> <br> 
   <b> Current Position </b> <br>
   I oversee ASTHO’s business intelligence planning and products (dashboards, data visualizations, data storytelling) and support the organization's use of data to inform
   decision making. One of my team’s flagship products is the Profile dashboard, which has received recognition for its modern design and useability. In addition to

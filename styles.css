@@ -149,6 +149,7 @@ h2, .h2 {
     padding: 10px 20px;
     text-decoration: none;
     color: #E5146C;
+    border: 2px solid #fcfbfa;
     border-radius: 0 0 25px 25px;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
     margin-top: -17px !important;
