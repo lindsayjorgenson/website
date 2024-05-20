@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: b8e9a331-9b73-4c45-abe0-857438323613
+      url: 'https://clinquant-chebakia-86556a.netlify.app'

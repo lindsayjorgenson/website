@@ -20,7 +20,7 @@ website:
 
   page-footer:
     border: true
-    left: "Something to add later"
+    right: "Updated May 20, 2024"
 
 
   favicon: images/favicon.png
@@ -42,4 +42,7 @@ format:
       gutter-width: 0px
     include-in-header:
       text: <script type="text/javascript" src="link_content.js"></script>
+
+
+
 
