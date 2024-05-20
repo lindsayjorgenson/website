@@ -43,27 +43,41 @@ function toggleMenu() {
 
 const skillsData = {
     rProgramming: [
-        { name: 'R Programming', level: '90%', info: 'Expert in R programming with 5 years of experience.' },
-        { name: 'Shiny Development', level: '90%', info: 'Skilled in developing Shiny applications.' },
-        { name: 'Quarto', level: '90%', info: 'Proficient in Quarto for creating reports, docs, and websites.' },
-        { name: 'Accessibility with R', level: '90%', info: 'Experienced in making R applications accessible according to WCAG2 standards.' },
-        { name: 'Predictive Analytics', level: '50%', info: 'Good understanding of predictive analytics methods.' },
-        { name: 'Inferential Statistics', level: '50%', info: 'Knowledgeable in inferential statistics techniques.' },
-        { name: 'Tidyverse Styling', level: '90%', info: 'Proficient in using the Tidyverse suite for data manipulation and analysis.' },
-        { name: 'Package Development', level: '70%', info: 'Experienced in developing R packages.' },
-        { name: 'Version Control', level: '80%', info: 'Proficient in version control using Git and GitHub.' },
-        { name: 'R Viz Libraries', level: '90%', info: 'Expert in using various R visualization libraries.' },
-        { name: 'JavaScript Integration', level: '30%', info: 'Skilled in integrating JavaScript with R applications.' }
+        { name: 'R Programming', level: '90%', info: 'See examples of my code in GitHub' },
+        { name: 'Shiny Development', level: '90%', info: 'Two of my production-grade shiny apps are highlighted in my projects' },
+        { name: 'Quarto', level: '90%', info: 'Proficient in Quarto for creating automated reports, presentations, and websites (see my projects)' },
+        { name: 'WCAG 2.2 (Accessibility)', level: '53%', info: 'Experienced in making R applications accessible, this is a topic of particular passion' },
+        { name: 'Package Development', level: '53%', info: 'I have developed several packages for data viz and Shiny, though I have not pushed any to CRAN' },
+        { name: 'Version Control', level: '90%', info: 'Proficient in version control using Git and GitHub' },
+        { name: 'R Viz Libraries', level: '90%', info: '{ggplot}, {highcharter}, {echarts4r}, {plotly}, {leaflet}' },
+        { name: 'JavaScript', level: '17%', info: 'mostly focused on JavaScript integrations with R applications, though I am learning React and D3' },
+        { name: 'HTML & CSS', level: '53%', info: 'Regularly use for better ui/ux in R' },
+        { name: 'SQL Querying', level: '30%', info: 'I can write SQL queries in SQL and R' }
+
     ],
     dataVisualization: [
-        { name: 'ggplot2', level: '90%', info: 'Expert in creating visualizations using ggplot2.' },
-        { name: 'Plotly', level: '80%', info: 'Skilled in interactive visualizations with Plotly.' },
-        { name: 'Leaflet', level: '70%', info: 'Experienced in creating maps with Leaflet.' },
-        { name: 'Highcharter', level: '60%', info: 'Good understanding of Highcharter for interactive charts.' },
-        { name: 'D3.js', level: '50%', info: 'Knowledgeable in using D3.js for data-driven documents.' },
-        { name: 'Data Wrangling', level: '85%', info: 'Proficient in data wrangling and manipulation.' },
-        { name: 'Dashboards', level: '75%', info: 'Experienced in creating dashboards.' },
-        { name: 'Interactive Visualizations', level: '80%', info: 'Skilled in creating interactive visualizations.' }
+        { name: 'InDesign & Illustrator', level: '90%', info: 'Expert in creating visualizations using ggplot2.' },
+        { name: 'Photoshop', level: '53%', info: 'Mostly used for adding animation to Quarto presentations' },
+        { name: 'Tableau/PowerBI', level: '17%', info: 'I much prefer R Shiny for dashboards' },
+        { name: 'Arc GIS', level: '60%', info: 'I now mostly use R for maps' },
+        { name: 'Wireframing', level: '90%', info: 'Mostly in Illustrator, though I am interested in learning Figma' },
+        { name: 'Report Design', level: '90%', info: 'Quarto and InDesign, see examples in my gallery' }
+    ],
+    dataScience: [
+        { name: 'Instrument Development', level: '90%', info: 'Includes qualitative tools (e.g., key informant interview guides) as well as survey design, following the Tailored Design Method' },
+        { name: 'Data Collection', level: '90%', info: 'I have developed custom tools for data collection in addition to using RedCap and Qualtrics' },
+        { name: 'NVivo', level: '60%', info: 'For qualitative work, though it has been awhile' },
+        { name: 'Discovery & User Testing', level: '90%', info: '10+ years of experience with qualitative data' },
+        { name: 'Data Integration', level: '90%', info: 'Experience combining numerous datasets across an organization' },
+        { name: 'Data Wrangling', level: '90%', info: 'Proficient in data wrangling and manipulation.' },
+        { name: 'Predictive Analytics', level: '75%', info: 'Very comfortable with all forms of regression' },
+        { name: 'Inferential Statistics', level: '90%', info: 'T-tests, ANOVA, DiD, chi-square, etc.' }
+    ],
+    leadershipPeople: [
+        { name: 'Public Speaking', level: '90%', info: 'I tend to make the audience chuckle' },
+        { name: 'Supervision & Management', level: '90%', info: 'Six years of experience supervising other staff' },
+        { name: 'Project Management', level: '90%', info: 'A decade on experience with project management, refined while in academia' },
+        { name: 'Great Conversationalist', level: '90%', info: 'I am great at chit chat!' }
     ]
 };
 

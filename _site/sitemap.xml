@@ -2,10 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.lindsayjorgenson.com/index.html</loc>
-    <lastmod>2024-05-18T15:58:53.145Z</lastmod>
+    <lastmod>2024-05-20T14:15:54.068Z</lastmod>
   </url>
   <url>
     <loc>https://www.lindsayjorgenson.com/work.html</loc>
     <lastmod>2024-05-10T15:53:25.692Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.lindsayjorgenson.com/projects.html</loc>
+    <lastmod>2024-05-20T13:09:14.640Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.lindsayjorgenson.com/gallery.html</loc>
+    <lastmod>2024-05-20T13:09:14.624Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.lindsayjorgenson.com/contact.html</loc>
+    <lastmod>2024-05-20T13:09:14.652Z</lastmod>
   </url>
 </urlset>

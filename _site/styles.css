@@ -19,9 +19,12 @@ hr {
   border-top: 1.5px solid !important;
 }
 
-
-a {
+.sidebar-navigation a {
   font-size: 1.3em !important;
+}
+
+a:not(sidebar-navigation) {
+  font-size: 1.1em !important;
   font-weight: 300 !important;
 }
 
@@ -103,9 +106,6 @@ footer.footer .nav-footer, #quarto-header>nav {
   overflow: hidden; /* Prevent this column from causing scrolling */
 }
 
-#content2 {
-  margin-left: -40px !important;
-}
 
 
 .about-column {
@@ -156,9 +156,9 @@ h2, .h2 {
 
   #links a:hover,
   #links a.active {
-    background-color: #E5146C;
+    background-color: #4F7B56;
     color: white;
-    border: 2px solid #E5146C;
+    border: 2px solid #4F7B56;
     margin-top: -17px !important;
     font-size: 1.1em !important;
   }
@@ -260,7 +260,7 @@ body, html {
     right: 15%;
     transform: translateX(-50%);
     display: inline-block;
-    width: 150px; /* Adjust width as needed */
+    width: 190px; /* Adjust width as needed */
 }
 
 .select-wrapper select {
@@ -334,7 +334,7 @@ body, html {
     color: #fff;
     text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
+    padding: 8px 8px;
     position: absolute;
     z-index: 1;
     bottom: 125%; /* Position above the dot */
@@ -342,9 +342,23 @@ body, html {
     margin-left: -70px; /* Center the tooltip */
     opacity: 0;
     transition: opacity 0.3s;
+    font-size: .7em;
+    line-height: 1.2em;
 }
 
 .dot:hover .tooltip {
     visibility: visible;
     opacity: 1;
 }
+
+
+.content-item {
+  min-width: 20em !important;
+  max-width: 20em !important;
+}
+
+#content2 {
+  margin-left: -2em !important;
+  min-width: 22em !important;
+}
+

@@ -11,10 +11,10 @@ website:
     contents:
       - text: "About"
         href: index.qmd
-      - text: "Work"
-        href: work.qmd
-      - text: "Skills"
-        href: skills.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Gallery"
+        href: gallery.qmd
       - text: "Contact"
         href: contact.qmd
 
