@@ -31,9 +31,6 @@ website:
 
 format:
   html:
-    embed-resources: true
-    resources:
-      - _files/jorgenson_cv.pdf
     theme: [default, my_styles.scss]
     css: styles.css
     mainfont: Jost
