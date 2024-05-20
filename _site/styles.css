@@ -89,6 +89,12 @@ footer.footer .nav-footer, #quarto-header>nav {
 }
 
 
+.about-column {
+  padding-left: 22% !important;
+  padding-top: 5% !important;
+  padding-right: 18% !important;
+}
+
 .my-content {
   position: fixed;
   top: 0px;
@@ -106,14 +112,26 @@ footer.footer .nav-footer, #quarto-header>nav {
   overflow: hidden; /* Prevent this column from causing scrolling */
 }
 
+@media (max-width: 985px) {
+  .my-content {
+    position: static; /* Remove fixed positioning */
+    width: 100%;
+    height: auto; /* Adjust height */
+    order: 2; /* Ensure it appears after the about-column */
+  }
 
+  .about-column {
+    width: 100%;
+    order: 1; /* Ensure it appears first */
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
 
-.about-column {
-  padding-left: 22% !important;
-  padding-top: 5% !important;
-  padding-right: 18% !important;
+  .grid {
+    display: flex;
+    flex-direction: column; /* Stack columns vertically */
+  }
 }
-
 
 
 ::selection {
@@ -149,6 +167,7 @@ h2, .h2 {
     padding: 10px 20px;
     text-decoration: none;
     color: #E5146C;
+    border: 2px solid #fcfbfa;
     border-radius: 0 0 25px 25px;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
     margin-top: -17px !important;
@@ -177,7 +196,7 @@ h2, .h2 {
     margin: 4px 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 985px) {
     #links {
         display: none;
         flex-direction: column;
@@ -218,7 +237,7 @@ h2, .h2 {
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 985px) {
     #links {
         display: flex !important;
         position: static;
@@ -246,9 +265,14 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; /* Prevent unnecessary scrolling */
+    overflow: hidden; /* Default overflow */
 }
 
+@media (max-width: 985px) {
+    body, html {
+        overflow: visible; /* Prevent unnecessary scrolling */
+    }
+}
 
 
 /* for the skills drop down menu */
@@ -288,6 +312,38 @@ body, html {
     color: #E5146C;
     font-size: 16px;
 }
+
+
+@media (max-width: 985px) {
+    .select-wrapper {
+        position: relative; /* Change to relative positioning */
+        left: 34% !important;
+        top: auto; /* Reset top position */
+        left: auto; /* Reset left position */
+        transform: none; /* Reset transform */
+        display: flex;
+        justify-content: center !important;
+        padding: 10px 0; /* Add padding if needed */
+        width: 190px; /* Adjust width as needed */
+
+    }
+
+    .select-wrapper select {
+        width: 100%; /* Adjust width for smaller screens */
+        padding: 10px 15px; /* Adjust padding if needed */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .select-wrapper::after {
+        right: 10px; /* Adjust position of the arrow */
+    }
+
+    .skills-container {
+      margin-bottom: 60px; /* Adjust margin to ensure space for the dropdown */
+  }
+}
+
+
 .skills-container {
     margin-top: 60px; /* Adjust margin to ensure space for the dropdown */
 }
@@ -361,4 +417,3 @@ body, html {
   margin-left: -2em !important;
   min-width: 22em !important;
 }
-

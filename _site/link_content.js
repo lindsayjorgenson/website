@@ -31,10 +31,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function toggleMenu() {
     var links = document.getElementById('links');
-    if (links.style.display === 'flex') {
-        links.style.display = 'none';
+    if (links.classList.contains('show')) {
+        links.classList.remove('show');
     } else {
-        links.style.display = 'flex';
+        links.classList.add('show');
     }
 }
 
