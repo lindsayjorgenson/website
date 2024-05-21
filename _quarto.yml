@@ -3,6 +3,7 @@ project:
 
 website:
   site-url: https://www.lindsayjorgenson.com
+  title: "Lindsay Jorgenson"
 
   sidebar:
     style: "docked"
