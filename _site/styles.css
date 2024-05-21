@@ -112,7 +112,7 @@ footer.footer .nav-footer, #quarto-header>nav {
   overflow: hidden; /* Prevent this column from causing scrolling */
 }
 
-@media (max-width: 985px) {
+@media (max-width: 1255px) {
   .my-content {
     position: static; /* Remove fixed positioning */
     width: 100%;
@@ -160,27 +160,27 @@ h2, .h2 {
   background-color: #EE3982 !important;
 }
 
- #links a {
-    display: block;
-    font-size: 1.1em !important;
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #E5146C;
-    border: 2px solid #fcfbfa;
-    border-radius: 0 0 25px 25px;
-    transition: background-color 0.3s, color 0.3s, border 0.3s;
-    margin-top: -17px !important;
-  }
+#links a {
+  display: block;
+  font-size: 1.1em !important;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #E5146C;
+  border: 2px solid #fcfbfa;
+  border-radius: 0 0 25px 25px;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  margin-top: -17px !important;
+}
 
-  #links a:hover,
-  #links a.active {
-    background-color: #4F7B56;
-    color: white;
-    border: 2px solid #4F7B56;
-    margin-top: -17px !important;
-    font-size: 1.1em !important;
-  }
+#links a:hover,
+#links a.active {
+  background-color: #4F7B56;
+  color: white;
+  border: 2px solid #4F7B56;
+  margin-top: -17px !important;
+  font-size: 1.1em !important;
+}
 
 
 .hamburger {
@@ -196,16 +196,16 @@ h2, .h2 {
     margin: 4px 0;
 }
 
-@media (max-width: 985px) {
+@media (max-width: 475px) {
     #links {
         display: none;
         flex-direction: column;
-        width: 100%;
+        width: 200px;
         position: absolute;
-        top: 50px;
-        left: 0;
-        background-color: #4F7B56;
-
+        left: 15%;
+        top: 71%;
+        border-radius: 0px 0px 50px 50px;
+        background-color: #E5146C;
         padding: 10px 0;
         font-size: 1.1em !important;
         z-index: 1;
@@ -237,7 +237,7 @@ h2, .h2 {
     }
 }
 
-@media (min-width: 985px) {
+@media (min-width: 475px) {
     #links {
         display: flex !important;
         position: static;
@@ -268,7 +268,7 @@ body, html {
     overflow: hidden; /* Default overflow */
 }
 
-@media (max-width: 985px) {
+@media (max-width: 1255px) {
     body, html {
         overflow: visible; /* Prevent unnecessary scrolling */
     }
@@ -281,7 +281,7 @@ body, html {
 .select-wrapper {
     position: absolute;
     top: 150px;
-    right: 15%;
+    right: 11%;
     transform: translateX(-50%);
     display: inline-block;
     width: 190px; /* Adjust width as needed */
@@ -314,7 +314,7 @@ body, html {
 }
 
 
-@media (max-width: 985px) {
+@media (max-width: 1255px) {
     .select-wrapper {
         position: relative; /* Change to relative positioning */
         left: 34% !important;
@@ -413,7 +413,7 @@ body, html {
   max-width: 20em !important;
 }
 
-#content2 {
+#content1 {
   margin-left: -2em !important;
   min-width: 22em !important;
 }

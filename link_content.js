@@ -50,17 +50,17 @@ const skillsData = {
         { name: 'Package Development', level: '53%', info: 'I have developed several packages for data viz and Shiny, though I have not pushed any to CRAN' },
         { name: 'Version Control', level: '90%', info: 'Proficient in version control using Git and GitHub' },
         { name: 'R Viz Libraries', level: '90%', info: '{ggplot}, {highcharter}, {echarts4r}, {plotly}, {leaflet}' },
-        { name: 'JavaScript', level: '17%', info: 'mostly focused on JavaScript integrations with R applications, though I am learning React and D3' },
+        { name: 'JavaScript', level: '17%', info: 'I focus on JavaScript integrations with R applications, though I am learning React and D3' },
         { name: 'HTML & CSS', level: '53%', info: 'Regularly use for better ui/ux in R' },
         { name: 'SQL Querying', level: '30%', info: 'I can write SQL queries in SQL and R' }
 
     ],
     dataVisualization: [
-        { name: 'InDesign & Illustrator', level: '90%', info: 'Expert in creating visualizations using ggplot2.' },
+        { name: 'InDesign & Illustrator', level: '90%', info: 'I have used these tools to create reports, infographics and visualizations since 2008' },
         { name: 'Photoshop', level: '53%', info: 'Mostly used for adding animation to Quarto presentations' },
         { name: 'Tableau/PowerBI', level: '17%', info: 'I much prefer R Shiny for dashboards' },
         { name: 'Arc GIS', level: '60%', info: 'I now mostly use R for maps' },
-        { name: 'Wireframing', level: '90%', info: 'Mostly in Illustrator, though I am interested in learning Figma' },
+        { name: 'Wireframing', level: '90%', info: 'I wireframe in Illustrator, though I am interested in learning Figma' },
         { name: 'Report Design', level: '90%', info: 'Quarto and InDesign, see examples in my gallery' }
     ],
     dataScience: [

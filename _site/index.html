@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index</title>
+<title>Lindsay Jorgenson</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -161,8 +161,8 @@ Thanks for stopping by! I am a data visualization engineer who specializes in hu
         <div class="bar"></div>
     </button>
     <div id="links">
-        <a href="#" data-content="content1">Education</a>
-        <a href="#" data-content="content2">Skills</a>
+        <a href="#" data-content="content1">Skills</a>
+        <a href="#" data-content="content2">Education</a>
         <a href="#" data-content="content3">Experience</a>
         <a href="#" data-content="content4">Talks</a>
     </div>
@@ -173,7 +173,27 @@ Thanks for stopping by! I am a data visualization engineer who specializes in hu
 
   <div id="content1" class="content-item">
   
-  <center>
+    
+    <div class="container">
+        <div class="select-wrapper">
+            <select id="skillCategory" onchange="updateSkills()">
+                <option value="rProgramming">Programming</option>
+                <option value="dataVisualization">Data Viz &amp; UX</option>
+                <option value="dataScience">Research &amp; Data Sci</option>
+                <option value="leadershipPeople">Leadership</option>
+            </select>
+        </div>
+        <div id="skillsContainer" class="skills-container">
+            <!-- Skills will be dynamically inserted here -->
+        </div>
+    </div>
+
+ 
+  
+  </div>
+
+  <div id="content2" class="content-item" style="display: none;">
+   <center>
   <b>Degrees</b>
   <br> <br>
   <b>2008 – 2011</b> <br>
@@ -201,36 +221,25 @@ Thanks for stopping by! I am a data visualization engineer who specializes in hu
   Package Development   <br>
   Version Control Using Git &amp; GitHub   <br> <br> <br> <br>
   </center>
-  
-  </div>
-
-  <div id="content2" class="content-item" style="display: none;">
-    
-    <div class="container">
-        <div class="select-wrapper">
-            <select id="skillCategory" onchange="updateSkills()">
-                <option value="rProgramming">Programming</option>
-                <option value="dataVisualization">Data Viz &amp; UX</option>
-                <option value="dataScience">Research &amp; Data Sci</option>
-                <option value="leadershipPeople">Leadership</option>
-            </select>
-        </div>
-        <div id="skillsContainer" class="skills-container">
-            <!-- Skills will be dynamically inserted here -->
-        </div>
-    </div>
 
   </div>
 
   <div id="content3" class="content-item" style="display: none;">
-  <b> Current Position </b> <br>
+  <b> Director, Business Intelligence | ASTHO </b> <br>
   I oversee ASTHO’s business intelligence planning and products (dashboards, data visualizations, data storytelling) and support the organization's use of data to inform
   decision making. One of my team’s flagship products is the Profile dashboard, which has received recognition for its modern design and useability. In addition to
   supporting ASTHO’s internal business intelligence needs, my team provides data services to partner organizations in dashboarding and data visualization. I am ASTHO's
   subject matter expert in R programming, interactive data visualization and data storytelling, and custom dashboard development. 
   <br>
   <br>
+  <b> Previous </b> <br>
+  Research Project Director | University of Kansas 
   <br>
+  Project Manager | NC State University
+  <br>
+  Project Manager | NC State University
+  <br>
+  Research Scholar | Washington University in Saint Louis
   </div>
 
   <div id="content4" class="content-item" style="display: none;">
@@ -330,7 +339,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/lindsayjorgenson\.com");
+      var filterRegex = new RegExp("https:\/\/www\.lindsayjorgenson\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
