@@ -79,9 +79,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -199,9 +199,11 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(12)</span></div><div class="category" data-category="COVID">COVID <span class="quarto-category-count">(4)</span></div><div class="category" data-category="academia">academia <span class="quarto-category-count">(4)</span></div><div class="category" data-category="data visualization">data visualization <span class="quarto-category-count">(12)</span></div><div class="category" data-category="economics">economics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="global">global <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 
 
@@ -223,6 +225,14 @@ Data Viz Work
 <img src="./gallery/faculty/faculty.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('academia'); return false;">
+academia
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -242,6 +252,14 @@ Data Viz Work
 <img src="./gallery/cdc/cdc.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('COVID'); return false;">
+COVID
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -261,6 +279,14 @@ Data Viz Work
 <img src="./gallery/tax_council_1/tax_council_1.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('economics'); return false;">
+economics
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -280,6 +306,14 @@ Data Viz Work
 <img src="./gallery/housing/housing.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('academia'); return false;">
+academia
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -299,6 +333,14 @@ Data Viz Work
 <img src="./gallery/transfers/transfers.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('academia'); return false;">
+academia
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -318,6 +360,14 @@ Data Viz Work
 <img src="./gallery/covid_radial/covid_radial.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('COVID'); return false;">
+COVID
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -337,6 +387,14 @@ Data Viz Work
 <img src="./gallery/kauffman/kauffman.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('academia'); return false;">
+academia
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -356,6 +414,14 @@ Data Viz Work
 <img src="./gallery/kenya_pop/kenya_pop.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('global'); return false;">
+global
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -375,6 +441,14 @@ Data Viz Work
 <img src="./gallery/dot_plot/dot_plot.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('economics'); return false;">
+economics
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -394,6 +468,14 @@ Data Viz Work
 <img src="./gallery/covid/covid.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('COVID'); return false;">
+COVID
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -413,6 +495,14 @@ Data Viz Work
 <img src="./gallery/masks/masks.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('COVID'); return false;">
+COVID
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>
@@ -432,6 +522,14 @@ Data Viz Work
 <img src="./gallery/seasonal_labor/seasonal_labor.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data visualization'); return false;">
+data visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('global'); return false;">
+global
+</div>
+</div>
 <div class="card-text listing-description">
 
 </div>

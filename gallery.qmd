@@ -3,9 +3,8 @@ listing:
     contents: gallery
     sort: "date desc"
     type: grid
-    categories: false
+    categories: true
     sort-ui: false
-    filter-ui: false
     feed: false
 ---
 
