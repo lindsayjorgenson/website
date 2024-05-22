@@ -1,0 +1,10 @@
+---
+image: "masks.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, COVID]
+open-graph: true
+draft: false
+---
+
+![](masks.png){fig-alt="A figure published in JAMA showing the impact of mask mandates on hospitalizations and deaths related to COVID."}

@@ -1,0 +1,10 @@
+---
+image: "kauffman.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, academia]
+open-graph: true
+draft: false
+---
+
+![](kauffman.png){fig-alt="A time-series graph showing the entreprenueral index for the US, Kansas, and other competing states, with Kansas being the lowest on 2018."}

@@ -1,0 +1,10 @@
+---
+image: "dot_plot.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, economics]
+open-graph: true
+draft: false
+---
+
+![](dot_plot.png){fig-alt="A dot plot showing ranges of sales tax revenue in Kansas by county in 2021."}

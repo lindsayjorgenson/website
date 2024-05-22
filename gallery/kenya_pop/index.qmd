@@ -1,0 +1,10 @@
+---
+image: "kenya_pop.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, global]
+open-graph: true
+draft: false
+---
+
+![](kenya_pop.png){fig-alt="A map showing population in Vigha and Kisumu Kenya."}

@@ -1,3 +1,15 @@
-:::{class="about-column"}
-**Coming soon!**
-:::
+---
+listing:
+    contents: gallery
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    feed: false
+---
+
+<h1> Data Viz Work </h1>
+
+<br>
+<br>

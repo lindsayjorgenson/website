@@ -1,0 +1,11 @@
+---
+image: "seasonal_labor.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, global]
+open-graph: true
+draft: false
+---
+
+![](seasonal_labor.png){fig-alt="A map of Kansas counties showing the number of seasonal farm workers by county, with many in south central Kansas."}
+

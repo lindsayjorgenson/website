@@ -4,5 +4,22 @@
     "items": [
       "/projects/profile_dash/index.html"
     ]
+  },
+  {
+    "listing": "/gallery.html",
+    "items": [
+      "/gallery/faculty/index.html",
+      "/gallery/cdc/index.html",
+      "/gallery/tax_council_1/index.html",
+      "/gallery/housing/index.html",
+      "/gallery/transfers/index.html",
+      "/gallery/covid_radial/index.html",
+      "/gallery/kauffman/index.html",
+      "/gallery/kenya_pop/index.html",
+      "/gallery/dot_plot/index.html",
+      "/gallery/covid/index.html",
+      "/gallery/masks/index.html",
+      "/gallery/seasonal_labor/index.html"
+    ]
   }
 ]

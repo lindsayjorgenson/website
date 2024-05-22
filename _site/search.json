@@ -17,6 +17,13 @@
     ]
   },
   {
+    "objectID": "projects/profile_dash/index.html",
+    "href": "projects/profile_dash/index.html",
+    "title": "Building Capacity for Data Visualization",
+    "section": "",
+    "text": "The Effort\nThis effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Lindsay Jorgenson",
@@ -39,28 +46,11 @@
   {
     "objectID": "gallery.html",
     "href": "gallery.html",
-    "title": "Lindsay Jorgenson",
+    "title": "\nData Viz Work\n",
     "section": "",
-    "text": "Coming soon!",
+    "text": "Data Viz Work\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Gallery"
     ]
-  },
-  {
-    "objectID": "projects.html#projects",
-    "href": "projects.html#projects",
-    "title": "Lindsay Jorgenson",
-    "section": "",
-    "text": "No matching items",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "projects/profile_dash/index.html",
-    "href": "projects/profile_dash/index.html",
-    "title": "Building Capacity for Data Visualization",
-    "section": "",
-    "text": "The Effort\nThis effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
   }
 ]

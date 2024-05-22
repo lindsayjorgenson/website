@@ -1,0 +1,10 @@
+---
+image: "covid.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, COVID]
+open-graph: true
+draft: false
+---
+
+![](covid.png){fig-alt="A bar graph showing covid rates in Kansas and Missouri from April 2020 through November 2021, with peaks in November 2020 and September 2021."}

@@ -1,0 +1,11 @@
+---
+image: "transfers.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, academia]
+open-graph: true
+draft: false
+---
+
+![](transfers.png){fig-alt="A snakey diagram showing transfer paths of University of Kansas students and what regions and universities they attend when they leave the University."}
+

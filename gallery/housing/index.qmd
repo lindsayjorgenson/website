@@ -1,0 +1,10 @@
+---
+image: "housing.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, academia]
+open-graph: true
+draft: false
+---
+
+![](housing.png){fig-alt="A cluster bar chart showing the gap in income and rental available for each income level, with the biggest gap for those between $25,000 and $49,999."}

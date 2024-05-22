@@ -1,0 +1,10 @@
+---
+image: "covid_radial.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, COVID]
+open-graph: true
+draft: false
+---
+
+![](covid_radial.png){fig-alt="A radial graph showing COVID rates in all Kansas counties."}

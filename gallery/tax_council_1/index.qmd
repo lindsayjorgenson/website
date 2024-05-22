@@ -1,0 +1,10 @@
+---
+image: "tax_council_1.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, economics]
+open-graph: true
+draft: false
+---
+
+![](tax_council_1.png){fig-alt="A time-series graph showing revenue, fund balance, and expenditures in Kansas from 1991 to 2019."}
