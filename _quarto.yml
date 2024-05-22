@@ -33,6 +33,8 @@ website:
 
 format:
   html:
+    include-in-header: gtm_code_head.html
+    include-before-body: gtm_code_body.html
     theme: [default, my_styles.scss]
     css: styles.css
     mainfont: Jost
