@@ -29,9 +29,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Lindsay Jorgenson",
+    "title": "\nCurrent Projects\n",
     "section": "",
-    "text": "# | echo: false\n\n# carousel\nbsutils::carousel(\nindicators = TRUE,\ncontrols = FALSE,\nclass = \"carousel-dark\",\n  bsutils::carouselItem(\n    div(\n      class = \"row\",\n      div(\n        class = \"col-lg-4\",\n        align = \"center\",\n        bslib::card(\n          height = 350,\n          class = \"key-findings-cards\",\n          bslib::card_header(\n            fill = FALSE,\n            h2(\"This is a Key Findings.\"),\n          ),\n          bslib::card_body(\n            p(\"This is the text for the Key Finding\")\n          )\n        )\n      ),\n      div(\n        class = \"col-lg-4\",\n        align = \"center\",\n        bslib::card(\n          height = 350,\n          class = \"key-findings-cards\",\n          bslib::card_header(\n            fill = FALSE,\n            h2(\"This is a Key Findings.\"),\n          ),\n          bslib::card_body(\n            p(\"This is the text for the Key Finding\")\n          )\n        )\n      ),\n      div(\n        class = \"col-lg-4\",\n        align = \"center\",\n        bslib::card(\n          height = 350,\n          class = \"key-findings-cards\",\n          bslib::card_header(\n            fill = FALSE,\n            h2(\"This is a Key Findings.\"),\n          ),\n          bslib::card_body(\n            p(\"This is the text for the Key Finding\")\n          )\n        )\n      )\n    ),\n    interval = 60000L\n  )\n)\n\n\n\n\n\n\n\n\n\n\n\nThis is a Key Findings.\n\n\nThis is the text for the Key Finding\n\n\n\n\n\n\n\nThis is a Key Findings.\n\n\nThis is the text for the Key Finding\n\n\n\n\n\n\n\nThis is a Key Findings.\n\n\nThis is the text for the Key Finding",
+    "text": "Current Projects\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Capacity for Data Visualization\n\n\nAn effort to build a tool that helps non-R users leverage R for data viz.\n\n\n\nLindsay Jorgenson\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
@@ -45,5 +45,22 @@
     "crumbs": [
       "Gallery"
     ]
+  },
+  {
+    "objectID": "projects.html#projects",
+    "href": "projects.html#projects",
+    "title": "Lindsay Jorgenson",
+    "section": "",
+    "text": "No matching items",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/profile_dash/index.html",
+    "href": "projects/profile_dash/index.html",
+    "title": "Building Capacity for Data Visualization",
+    "section": "",
+    "text": "The Effort\nThis effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
   }
 ]

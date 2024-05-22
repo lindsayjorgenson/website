@@ -89,12 +89,6 @@ footer.footer .nav-footer, #quarto-header>nav {
 }
 
 
-.about-column {
-  padding-left: 22% !important;
-  padding-top: 10% !important;
-  padding-right: 18% !important;
-}
-
 .my-content {
   position: fixed;
   top: 0px;
@@ -203,7 +197,7 @@ h2, .h2 {
         width: 200px;
         position: absolute;
         left: 15%;
-        top: 71%;
+        top: 97%;
         border-radius: 0px 0px 50px 50px;
         background-color: #E5146C;
         padding: 10px 0;
@@ -249,10 +243,6 @@ button {
   border: none !important;
 }
 
-#quarto-content>* {
-  padding: 0px !important;
-}
-
 
 main {
   margin-top: 0px !important;
@@ -265,14 +255,8 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; /* Default overflow */
 }
 
-@media (max-width: 1255px) {
-    body, html {
-        overflow: visible; /* Prevent unnecessary scrolling */
-    }
-}
 
 
 /* for the skills drop down menu */
@@ -417,3 +401,27 @@ body, html {
   margin-left: -2em !important;
   min-width: 22em !important;
 }
+
+
+@media (min-width: 1255px) {
+  #quarto-content>* {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-top: 6% !important;
+  }
+}
+
+@media (max-width: 1255px) {
+  #quarto-content>* {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    padding-top: 4% !important;
+  }
+}
+
+
+
+.about-column {
+  padding-right: 35% !important;
+}
+
