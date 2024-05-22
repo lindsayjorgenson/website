@@ -1,8 +1,3 @@
-```{r}
-#| echo: false
-library(bsutils)
-library(htmltools)
-```
 
 ::: {.grid}
 
