@@ -4,7 +4,6 @@ project:
 website:
   site-url: https://www.lindsayjorgenson.com
   title: "Lindsay Jorgenson"
-  google-analytics: "G-CHHT2HTHQN"
 
   sidebar:
     style: "docked"
@@ -28,7 +27,7 @@ website:
   favicon: images/favicon.png
 
   google-analytics:
-    tracking-id: ""
+    tracking-id: "G-CHHT2HTHQN"
     anonymize-ip: true
 
 format:
