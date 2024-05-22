@@ -21,7 +21,7 @@
     "href": "projects/profile_dash/index.html",
     "title": "Building Capacity for Data Visualization",
     "section": "",
-    "text": "The Effort\nThis effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
+    "text": "This effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
   },
   {
     "objectID": "contact.html",
@@ -36,9 +36,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "\nCurrent Projects\n",
+    "title": "\nCurrent and Past Projects\n",
     "section": "",
-    "text": "Current Projects\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Capacity for Data Visualization\n\n\nAn effort to build a tool that helps non-R users leverage R for data viz.\n\n\n\nLindsay Jorgenson\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Current and Past Projects\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Profile Dashboard\n\n\nASTHO’s Profile Dashboard - A Shiny App\n\n\n\nLindsay Jorgenson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Governor’s Council on Tax Reform\n\n\nA report created while at the University of Kansas.\n\n\n\nLindsay Jorgenson\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Capacity for Data Visualization\n\n\nAn effort to build a tool that helps non-R users leverage R for data viz.\n\n\n\nLindsay Jorgenson\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Projects"
     ]
@@ -52,5 +52,19 @@
     "crumbs": [
       "Gallery"
     ]
+  },
+  {
+    "objectID": "projects/tax_council/index.html",
+    "href": "projects/tax_council/index.html",
+    "title": "The Governor’s Council on Tax Reform",
+    "section": "",
+    "text": "Below are a few examples of the report. The full report is available here."
+  },
+  {
+    "objectID": "projects/profile/index.html",
+    "href": "projects/profile/index.html",
+    "title": "The Profile Dashboard",
+    "section": "",
+    "text": "We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility."
   }
 ]

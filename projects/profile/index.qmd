@@ -1,0 +1,21 @@
+---
+title: "The Profile Dashboard"
+description: |
+  ASTHO's Profile Dashboard - A Shiny App
+author: 
+  - name: Lindsay Jorgenson
+image: "dash.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, R]
+open-graph: true
+draft: false
+---
+
+<br> 
+
+We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility. 
+
+<br>
+<center>
+![](dash.png){fig-alt="A screenshot of the ASTHO Profile dashboard." width=80%}

@@ -10,7 +10,7 @@ listing:
     feed: false
 ---
 
-<h1> Current Projects </h1>
+<h1> Current and Past Projects </h1>
 
 <br>
 <br>
