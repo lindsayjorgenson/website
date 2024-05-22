@@ -32,8 +32,6 @@ website:
 
 format:
   html:
-    include-in-header: gtm_code_head.html
-    include-before-body: gtm_code_body.html
     theme: [default, my_styles.scss]
     css: styles.css
     mainfont: Jost
@@ -44,7 +42,10 @@ format:
       margin-width: 0px
       gutter-width: 0px
     include-in-header:
-      text: <script type="text/javascript" src="link_content.js"></script>
+      text: |
+        <script type="text/javascript" src="link_content.js"></script>
+        <script type="text/html" src="gtm_code_head.html"></script>
+        <script type="text/html" src="gtm_code_body.html"></script>
 
 
 
