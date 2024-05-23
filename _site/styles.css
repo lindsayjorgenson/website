@@ -35,16 +35,17 @@ p {
   font-weight: 400 !important;
 }
 
-.footer-p {
-  font-size: 1.1em !important;
-  line-height: 1.6em !important;
-  color: #222326 !important;
+
+.nav-footer-left .footer-items .nav-link, .nav-footer-center .footer-items .nav-link {
+  color: #fff;
   font-weight: 600 !important;
   padding-top: 20px;
 }
 
-.nav-footer-left .footer-items .nav-link, .nav-footer-center .footer-items .nav-link, .nav-footer-right .footer-items .nav-link {
-  color: #fff !important;
+.nav-footer-right {
+  color: black !important;
+  font-weight: 600 !important;
+  padding-top: 20px;
 }
 
 .sidebar-logo {
@@ -89,7 +90,6 @@ div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents, nav.sideba
 footer.footer .nav-footer, #quarto-header>nav {
   background-color: #8FACA5 !important;
   border: none !important;
-  color: #fff !important;
 }
 
 
