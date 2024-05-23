@@ -31,10 +31,21 @@ a:not(sidebar-navigation) {
 p {
   font-size: 1.1em !important;
   line-height: 1.6em !important;
-  color: #3D3D3D !important;
-  font-weight: 300 !important;
+  color: #222326 !important;
+  font-weight: 400 !important;
 }
 
+.footer-p {
+  font-size: 1.1em !important;
+  line-height: 1.6em !important;
+  color: #222326 !important;
+  font-weight: 600 !important;
+  padding-top: 20px;
+}
+
+.nav-footer-left .footer-items .nav-link, .nav-footer-center .footer-items .nav-link, .nav-footer-right .footer-items .nav-link {
+  color: #fff !important;
+}
 
 .sidebar-logo {
   position: absolute;
@@ -77,6 +88,8 @@ div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents, nav.sideba
 
 footer.footer .nav-footer, #quarto-header>nav {
   background-color: #8FACA5 !important;
+  border: none !important;
+  color: #fff !important;
 }
 
 

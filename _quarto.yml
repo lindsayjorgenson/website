@@ -21,8 +21,14 @@ website:
 
   page-footer:
     border: true
-    right: "Updated May 20, 2024"
-
+    left:
+    - icon: github
+      href: "https://github.com/lindsayjorgenson"
+    - icon: envelope
+      aria-label: email
+      href: "mailto:lindsaybrookeelliott@gmail.com"
+    right:
+    - text: <div class="footer-p">Updated May 22, 2024</div>
 
   favicon: images/favicon.png
 
