@@ -28,7 +28,7 @@ website:
       aria-label: email
       href: "mailto:lindsaybrookeelliott@gmail.com"
     right:
-    - text: <div class="footer-p">Updated May 22, 2024</div>
+    - text: Updated May 22, 2024
 
   favicon: images/favicon.png
 
