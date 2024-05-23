@@ -7,13 +7,13 @@ p, body, h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: "Jost" !important;
-  color: #EE3982 !important;
+  color: #CD4232 !important;
   font-weight: 600 !important;
   font-style: italic
 }
 
 hr {
-  color: #DC4C81 !important;
+  color: #CD4232 !important;
   opacity: 1 !important;
   margin-top: 40px !important;
   border-top: 1.5px solid !important;
@@ -53,7 +53,7 @@ div.sidebar-item-container .active, div.sidebar-item-container .show>.nav-link, 
 }
 
 div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents, nav.sidebar.sidebar-navigation:not(.rollup) {
-  background-color: #597A59 !important;
+  background-color: #1E486B !important;
 }
 
 
@@ -76,7 +76,7 @@ div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents, nav.sideba
 }
 
 footer.footer .nav-footer, #quarto-header>nav {
-  background-color: #E8C9BF !important;
+  background-color: #8FACA5 !important;
 }
 
 
@@ -94,7 +94,7 @@ footer.footer .nav-footer, #quarto-header>nav {
   top: 0px;
   right: 0px;
   padding: 5% !important;
-  background-color: #ebebe4; /* Background color for the second column */
+  background-color: #E7E1D8; /* Background color for the second column */
   flex: 5;
   color: #222326; /* Text color for readability */
   display: flex;
@@ -130,7 +130,7 @@ footer.footer .nav-footer, #quarto-header>nav {
 
 ::selection {
   color: #fff;
-  background: #EE3982;
+  background: #CD4232;
 }
 
 
@@ -144,14 +144,14 @@ h2, .h2 {
 
 .card {
   border: none !important;
-  /* border: 1px solid #4F7B56 !important; */
+  /* border: 1px solid #1E486B !important; */
   /* border-radius: 50px; */
-  --bs-card-border-color: #EE3982 !important;
+  --bs-card-border-color: #CD4232 !important;
   --bs-card-border-width: 1.5px !important;
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #EE3982 !important;
+  background-color: #CD4232 !important;
 }
 
 #links a {
@@ -160,7 +160,7 @@ h2, .h2 {
   margin-bottom: 10px;
   padding: 10px 20px;
   text-decoration: none;
-  color: #E5146C;
+  color: #1E486B;
   border: 2px solid #fcfbfa;
   border-radius: 0 0 25px 25px;
   transition: background-color 0.3s, color 0.3s, border 0.3s;
@@ -169,9 +169,9 @@ h2, .h2 {
 
 #links a:hover,
 #links a.active {
-  background-color: #4F7B56;
+  background-color: #1E486B;
   color: white;
-  border: 2px solid #4F7B56;
+  border: 2px solid #1E486B;
   margin-top: -17px !important;
   font-size: 1.1em !important;
 }
@@ -186,7 +186,7 @@ h2, .h2 {
 .bar {
     width: 25px;
     height: 3px;
-    background-color: #E5146C;
+    background-color: #CD4232;
     margin: 4px 0;
 }
 
@@ -199,7 +199,7 @@ h2, .h2 {
         left: 15%;
         top: 97%;
         border-radius: 0px 0px 50px 50px;
-        background-color: #E5146C;
+        background-color: #CD4232;
         padding: 10px 0;
         font-size: 1.1em !important;
         z-index: 1;
@@ -219,7 +219,7 @@ h2, .h2 {
   #links a:hover,
   #links a.active {
     background-color: #fff;
-    color: #4F7B56 !important;
+    color: #1E486B !important;
     font-size: 1.1em !important;
     border: none !important;
   }
@@ -274,10 +274,10 @@ body, html {
 .select-wrapper select {
     width: 100%;
     padding: 10px 20px;
-    border: 2px solid #E5146C;
+    border: 2px solid #CD4232;
     border-radius: 25px;
     background-color: #fff;
-    color: #E5146C;
+    color: #CD4232;
     font-size: 16px;
     outline: none;
     cursor: pointer;
@@ -293,7 +293,7 @@ body, html {
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
-    color: #E5146C;
+    color: #CD4232;
     font-size: 16px;
 }
 
@@ -348,15 +348,15 @@ body, html {
 .line {
     flex-grow: 1;
     width: 100px !important;
-    height: 2px;
-    background-color: #ccc;
+    height: 1px;
+    background-color: #262626;
     position: relative;
 }
 
 .dot {
     width: 12px;
     height: 12px;
-    background-color: #E5146C;
+    background-color: #CD4232;
     border-radius: 50%;
     position: absolute;
     top: -5px;
@@ -370,7 +370,7 @@ body, html {
 .tooltip {
     visibility: hidden;
     width: 140px;
-    background-color: #E5146C;
+    background-color: #CD4232;
     color: #fff;
     text-align: center;
     border-radius: 6px;
