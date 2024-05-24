@@ -101,37 +101,50 @@ footer.footer .nav-footer, #quarto-header>nav {
     z-index: 1000; /* Ensure the footer is in front of everything else */
 }
 
+@media (min-width: 1255px) {
+  .my-content {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 5% !important;
+    background-color: #E7E1D8; /* Background color for the second column */
+    flex: 5;
+    color: #222326; /* Text color for readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    box-sizing: border-box; /* Ensure padding is included in the width/height */
+    height: 100vh; /* Ensure this column takes up the full viewport height */
+    overflow: hidden; /* Prevent this column from causing scrolling */
+  }
 
-.my-content {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  padding: 5% !important;
-  background-color: #E7E1D8; /* Background color for the second column */
-  flex: 5;
-  color: #222326; /* Text color for readability */
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Center content vertically */
-  align-items: center; /* Center content horizontally */
-  box-sizing: border-box; /* Ensure padding is included in the width/height */
-  height: 100vh; /* Ensure this column takes up the full viewport height */
-  overflow: hidden; /* Prevent this column from causing scrolling */
+  .about-column {
+    padding-right: 35%;
+    padding-top: 2%;
+  }
+
 }
 
 @media (max-width: 1255px) {
   .my-content {
-    position: static; /* Remove fixed positioning */
-    width: 100%;
-    height: auto; /* Adjust height */
+    padding: 5% !important;
+    flex: 5;
+    color: #222326; /* Text color for readability */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    background-color: #E7E1D8; /* Background color for the second column */
     order: 2; /* Ensure it appears after the about-column */
   }
 
   .about-column {
     width: 100%;
     order: 1; /* Ensure it appears first */
-    padding-left: 5% !important;
-    padding-right: 5% !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-top: 5% !important;
   }
 
   .grid {
@@ -278,7 +291,7 @@ body, html {
 .select-wrapper {
     position: absolute;
     top: 150px;
-    right: 11%;
+    right: 11.5%;
     transform: translateX(-50%);
     display: inline-block;
     width: 190px; /* Adjust width as needed */
@@ -314,7 +327,7 @@ body, html {
 @media (max-width: 1255px) {
     .select-wrapper {
         position: relative; /* Change to relative positioning */
-        left: 34% !important;
+        left: 23% !important;
         top: auto; /* Reset top position */
         left: auto; /* Reset left position */
         transform: none; /* Reset transform */
@@ -410,9 +423,9 @@ body, html {
   max-width: 20em !important;
 }
 
-#content1 {
-  margin-left: -2em !important;
-  min-width: 22em !important;
+#quarto-content {
+  margin-left: -12px !important;
+  margin-right: -12px !important;
 }
 
 
@@ -434,7 +447,4 @@ body, html {
 
 
 
-.about-column {
-  padding-right: 35% !important;
-}
 

@@ -16,8 +16,6 @@ website:
         href: projects.qmd
       - text: "Gallery"
         href: gallery.qmd
-      - text: "Contact"
-        href: contact.qmd
 
   page-footer:
     border: true
