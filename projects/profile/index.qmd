@@ -2,8 +2,6 @@
 title: "The Profile Dashboard"
 description: |
   ASTHO's Profile Dashboard - A Shiny App
-author: 
-  - name: Lindsay Jorgenson
 image: "dash.png"
 #image-alt: |
 #	ASCII art Christmas tree with Advent of Code written below in a green monospace font.

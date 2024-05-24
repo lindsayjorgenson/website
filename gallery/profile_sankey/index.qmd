@@ -1,0 +1,11 @@
+---
+image: "sankey.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, academia]
+open-graph: true
+draft: false
+---
+
+<br>
+{{< video profile_sankey.mov height="900px" >}}

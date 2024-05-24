@@ -1,0 +1,21 @@
+---
+title: "Profile Data Stories"
+description: |
+  Adding context to a data dashboard
+image: "image.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, R, data stories]
+open-graph: true
+draft: false
+---
+
+<br> 
+
+We have added stories to our data application to connect data to action. Check out one of them below. They are available at [www.astho.org/profile](www.astho.org/profile).
+
+<br>
+<center>
+
+{{< video data_stories.mov height="900px" >}}
+
