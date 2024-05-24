@@ -423,10 +423,6 @@ body, html {
   max-width: 20em !important;
 }
 
-#quarto-content {
-  margin-left: -12px !important;
-  margin-right: -12px !important;
-}
 
 
 @media (min-width: 1255px) {
