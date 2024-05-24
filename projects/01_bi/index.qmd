@@ -12,37 +12,51 @@ draft: false
 
 <br> 
 
-
-Below are a few visuals to explain what a more fully realized business intelligence strategy will entail.
-
+<br>
+<br>
 <center>
+<h1>Business intelligence is strategically using data to inform decision making.</h1>
 <br>
 <br>
-<b> Step 1: Coordinated data collection and documented datasets </b> <br>
+<h2> Step 1: Coordinated data collection and documented datasets </h2>
 ![](step1.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
 
 <br>
 <br>
-<b> Step 2: Integrated and centrally housed datasets</b><br>
+<h2> Step 2: Integrated and centrally housed datasets</h2>
 ![](step2.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
 
 <br>
 <br>
-<b> Step 3: Key metrics that are used to answer operations and program questions </b><br>
+<br>
+<br>
+<h2> Step 3: Key metrics that are used to answer operations and program questions </h2>
 ![](step3.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
-
 <br>
 <br>
-<b> Step 4a: Use data science and analytics to uncover insights and predict needs </b><br>
+<br>
+<br>
+<br>
+<br>
+<h2> Step 4a: Use data science and analytics to uncover insights and predict needs </h2>
 ![](step4.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
-
 <br>
 <br>
-<b> Step 4b: Use data science and analytics to uncover insights and predict needs</b><br>
+<br>
+<br>
+<br>
+<br>
+<h2> Step 4b: Use data science and analytics to uncover insights and predict needs</h2>
 ![](step5.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
-
 <br>
 <br>
-<b> Step 5: Automated reports and dashboards that make insights accessible </b><br>
+<br>
+<br>
+<br>
+<br>
+<h2> Step 5: Automated reports and dashboards that make insights accessible </h2>
 ![](step6.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
+<br>
+<br>
+<br>
 </center>
