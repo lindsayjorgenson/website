@@ -1,0 +1,48 @@
+---
+title: "What is Business Intelligence?"
+description: |
+  Images from a talk given to colleauges on developing a business intelligence strategy.
+image: "table.gif"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, economics]
+open-graph: true
+draft: false
+---
+
+<br> 
+
+
+Below are a few visuals to explain what a more fully realized business intelligence strategy will entail.
+
+<center>
+<br>
+<br>
+<b> Step 1: Coordinated data collection and documented datasets </b> <br>
+![](step1.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
+
+<br>
+<br>
+<b> Step 2: Integrated and centrally housed datasets</b><br>
+![](step2.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
+
+<br>
+<br>
+<b> Step 3: Key metrics that are used to answer operations and program questions </b><br>
+![](step3.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
+
+<br>
+<br>
+<b> Step 4a: Use data science and analytics to uncover insights and predict needs </b><br>
+![](step4.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
+
+<br>
+<br>
+<b> Step 4b: Use data science and analytics to uncover insights and predict needs</b><br>
+![](step5.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
+
+<br>
+<br>
+<b> Step 5: Automated reports and dashboards that make insights accessible </b><br>
+![](step6.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
+</center>

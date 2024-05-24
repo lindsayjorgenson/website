@@ -1,0 +1,22 @@
+---
+title: "The Governor’s Council on Tax Reform"
+description: |
+  A report created while at the University of Kansas.
+image: "tc1.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, economics]
+open-graph: true
+draft: false
+---
+
+<br> 
+
+
+Below are a few examples of the report. The full report is available [here.](https://kuscholarworks.ku.edu/bitstream/handle/1808/32852/Tax_Council_Final_April2022.pdf?sequence=1&isAllowed=y)
+
+![](tc2.png){fig-alt="Part of a page from the Kansas Tax Council Report. The full pdf is accessible and available by selecting the link above."}
+<br>
+![](tc3.png){fig-alt="Part of a page from the Kansas Tax Council Report. The full pdf is accessible and available by selecting the link above."}
+<br>
+![](tc4.png){fig-alt="Part of a page from the Kansas Tax Council Report. The full pdf is accessible and available by selecting the link above."}

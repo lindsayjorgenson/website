@@ -1,0 +1,34 @@
+---
+title: "The Profile Dashboard"
+description: |
+  ASTHO's Profile Dashboard - A Shiny App
+image: "dash.png"
+#image-alt: |
+#	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
+categories: [data visualization, R]
+open-graph: true
+draft: false
+---
+
+<br> 
+
+We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility. 
+
+<br>
+<center>
+```{=html}
+<style>
+    #wrap { width: 1430px; 
+            height: 970px; 
+            position:relative;}
+    #frame { -ms-zoom: 0.75; 
+             -webkit-transform: scale(0.75); 
+             -webkit-transform-origin: 0 0;
+             padding-left: -30px;
+             box-shadow: 0px 14px 15px 2px rgba(0,0,0,.3);
+             border-top: 2px solid white}
+</style>
+<div id="wrap">
+<iframe id="frame" src="https://astho.shinyapps.io/profile/" width="100%" height="100%" ></iframe>
+</div>
+```
