@@ -17,18 +17,25 @@
     ]
   },
   {
-    "objectID": "projects/profile_dash/index.html",
-    "href": "projects/profile_dash/index.html",
+    "objectID": "projects/04_dash/index.html",
+    "href": "projects/04_dash/index.html",
     "title": "Building Capacity for Data Visualization",
     "section": "",
     "text": "This effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
   },
   {
-    "objectID": "projects/profile/index.html",
-    "href": "projects/profile/index.html",
-    "title": "The Profile Dashboard",
+    "objectID": "projects/05_tax/index.html",
+    "href": "projects/05_tax/index.html",
+    "title": "The Governor’s Council on Tax Reform",
     "section": "",
-    "text": "We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility."
+    "text": "Below are a few examples of the report. The full report is available here."
+  },
+  {
+    "objectID": "projects/01_bi/index.html",
+    "href": "projects/01_bi/index.html",
+    "title": "What is Business Intelligence?",
+    "section": "",
+    "text": "Below are a few visuals to explain what a more fully realized business intelligence strategy will entail.\n\n   Step 1: Coordinated data collection and documented datasets   \n   Step 2: Integrated and centrally housed datasets \n   Step 3: Key metrics that are used to answer operations and program questions  \n   Step 4a: Use data science and analytics to uncover insights and predict needs  \n   Step 4b: Use data science and analytics to uncover insights and predict needs \n   Step 5: Automated reports and dashboards that make insights accessible"
   },
   {
     "objectID": "contact.html",
@@ -38,11 +45,18 @@
     "text": "Coming soon!"
   },
   {
-    "objectID": "projects/tax_council/index.html",
-    "href": "projects/tax_council/index.html",
-    "title": "The Governor’s Council on Tax Reform",
+    "objectID": "projects/02_stories/index.html",
+    "href": "projects/02_stories/index.html",
+    "title": "Profile Data Stories",
     "section": "",
-    "text": "Below are a few examples of the report. The full report is available here."
+    "text": "We have added stories to our data application to connect data to action. Check out one of them below. They are available at www.astho.org/profile."
+  },
+  {
+    "objectID": "projects/03_profile/index.html",
+    "href": "projects/03_profile/index.html",
+    "title": "The Profile Dashboard",
+    "section": "",
+    "text": "We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility."
   },
   {
     "objectID": "projects.html",
@@ -59,58 +73,9 @@
     "href": "gallery.html",
     "title": "\nData Viz Work\n",
     "section": "",
-    "text": "Data Viz Work\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nacademia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nCOVID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\neconomics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nacademia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nacademia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nacademia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nCOVID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nacademia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nglobal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\neconomics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nCOVID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nCOVID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nglobal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "text": "Data Viz Work\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nacademia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nCOVID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\neconomics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\npublic health\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nhousing\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nacademia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nCOVID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nacademia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nglobal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\neconomics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nCOVID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nCOVID\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ndata visualization\n\n\nglobal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Gallery"
     ]
-  },
-  {
-    "objectID": "projects/data_stories/index.html",
-    "href": "projects/data_stories/index.html",
-    "title": "Profile Data Stories",
-    "section": "",
-    "text": "We have added stories to our data application to connect data to action. Check out one of them below. They are available at www.astho.org/profile."
-  },
-  {
-    "objectID": "projects/bi/index.html",
-    "href": "projects/bi/index.html",
-    "title": "What is Business Intelligence?",
-    "section": "",
-    "text": "Below are a few visuals to explain what a more fully realized business intelligence strategy will entail.\n\n   Step 1: Coordinated data collection and documented datasets   \n   Step 2: Integrated and centrally housed datasets \n   Step 3: Key metrics that are used to answer operations and program questions  \n   Step 4a: Use data science and analytics to uncover insights and predict needs  \n   Step 4b: Use data science and analytics to uncover insights and predict needs \n   Step 5: Automated reports and dashboards that make insights accessible"
-  },
-  {
-    "objectID": "projects/01_bi/index.html",
-    "href": "projects/01_bi/index.html",
-    "title": "What is Business Intelligence?",
-    "section": "",
-    "text": "Below are a few visuals to explain what a more fully realized business intelligence strategy will entail.\n\n   Step 1: Coordinated data collection and documented datasets   \n   Step 2: Integrated and centrally housed datasets \n   Step 3: Key metrics that are used to answer operations and program questions  \n   Step 4a: Use data science and analytics to uncover insights and predict needs  \n   Step 4b: Use data science and analytics to uncover insights and predict needs \n   Step 5: Automated reports and dashboards that make insights accessible"
-  },
-  {
-    "objectID": "projects/03_profile/index.html",
-    "href": "projects/03_profile/index.html",
-    "title": "The Profile Dashboard",
-    "section": "",
-    "text": "We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility."
-  },
-  {
-    "objectID": "projects/02_stories/index.html",
-    "href": "projects/02_stories/index.html",
-    "title": "Profile Data Stories",
-    "section": "",
-    "text": "We have added stories to our data application to connect data to action. Check out one of them below. They are available at www.astho.org/profile."
-  },
-  {
-    "objectID": "projects/05_tax/index.html",
-    "href": "projects/05_tax/index.html",
-    "title": "The Governor’s Council on Tax Reform",
-    "section": "",
-    "text": "Below are a few examples of the report. The full report is available here."
-  },
-  {
-    "objectID": "projects/04_dash/index.html",
-    "href": "projects/04_dash/index.html",
-    "title": "Building Capacity for Data Visualization",
-    "section": "",
-    "text": "This effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
   }
 ]

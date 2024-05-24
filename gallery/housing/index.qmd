@@ -2,7 +2,7 @@
 image: "housing.png"
 #image-alt: |
 #	ASCII art Christmas tree with Advent of Code written below in a green monospace font.
-categories: [data visualization, academia]
+categories: [data visualization, housing]
 open-graph: true
 draft: false
 ---
