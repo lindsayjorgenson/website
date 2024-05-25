@@ -38,15 +38,11 @@ draft: false
 <br>
 <br>
 <br>
-<h2> Step 4a: Use data science and analytics to uncover insights and predict needs </h2>
+<h2> Step 4: Data science and analytics to uncover insights and predict needs </h2>
 ![](step4.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<h2> Step 4b: Use data science and analytics to uncover insights and predict needs</h2>
 ![](step5.png){fig-alt="icon of table with metadata fields that read source, title, creator, date, and rights"}
 <br>
 <br>

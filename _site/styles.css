@@ -68,6 +68,9 @@ div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents, nav.sideba
   background-color: #1E486B !important;
 }
 
+.sidebar.sidebar-navigation>* {
+  padding-top: 20% !important;
+}
 
 #quarto-sidebar {
   text-align: center !important;
