@@ -1,24 +1,25 @@
 /*-- scss:defaults --*/
 
 // fonts
-@import 'https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet';
-@import 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Patrick+Hand+SC&display=swap" rel="stylesheet';
 
-$font-family-sans-serif: "Jost", sans-serif;
+@import 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Patrick+Hand+SC&display=swap" rel="stylesheet';
+@import 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet"';
+
+$font-family-sans-serif: "Plus Jakarta Sans", sans-serif;
 $presentation-heading-color: #80AAD7;
 $presentation-title-slide-text-align: "left";
 
 // colors
 $blue:    #1b5380 !default;
-$pink:  #CD4232 !default;
+$pink:  #737038 !default;
 $yellow:  #E4B94A !default;
-$green:   #1E486B !default;
+$green:   #2B77B7 !default;
 $dark:    #222326 !default;
 $offwhite: #fcfbfa !default;
 
 $body-bg: #fcfbfa;
 $body-color: #222326;
-$link-color: #CD4232;
+$link-color: #C75334;
 $code-block-bg: $body-bg;
 $code-block-border-color: $body-bg;
 $tabset-border-color: $body-color;

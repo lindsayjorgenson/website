@@ -47,22 +47,22 @@
          <xmpTPg:Fonts>
             <rdf:Bag>
                <rdf:li rdf:parseType="Resource">
-                  <stFnt:fontName>Jost-Book</stFnt:fontName>
-                  <stFnt:fontFamily>Jost*</stFnt:fontFamily>
+                  <stFnt:fontName>Plus Jakarta Sans-Book</stFnt:fontName>
+                  <stFnt:fontFamily>Plus Jakarta Sans*</stFnt:fontFamily>
                   <stFnt:fontFace>Book</stFnt:fontFace>
                   <stFnt:fontType>Open Type</stFnt:fontType>
                   <stFnt:versionString>Version 3.200; ttfautohint (v0.97) -l 8 -r 50 -G 200 -x 14 -f dflt -w G</stFnt:versionString>
                   <stFnt:composite>False</stFnt:composite>
-                  <stFnt:fontFileName>Jost400Book.otf</stFnt:fontFileName>
+                  <stFnt:fontFileName>Plus Jakarta Sans400Book.otf</stFnt:fontFileName>
                </rdf:li>
                <rdf:li rdf:parseType="Resource">
-                  <stFnt:fontName>Jost-Medium</stFnt:fontName>
-                  <stFnt:fontFamily>Jost*</stFnt:fontFamily>
+                  <stFnt:fontName>Plus Jakarta Sans-Medium</stFnt:fontName>
+                  <stFnt:fontFamily>Plus Jakarta Sans*</stFnt:fontFamily>
                   <stFnt:fontFace>Medium</stFnt:fontFace>
                   <stFnt:fontType>Open Type</stFnt:fontType>
                   <stFnt:versionString>Version 3.200; ttfautohint (v0.97) -l 8 -r 50 -G 200 -x 14 -f dflt -w G</stFnt:versionString>
                   <stFnt:composite>False</stFnt:composite>
-                  <stFnt:fontFileName>Jost500Medium.otf</stFnt:fontFileName>
+                  <stFnt:fontFileName>Plus Jakarta Sans500Medium.otf</stFnt:fontFileName>
                </rdf:li>
             </rdf:Bag>
          </xmpTPg:Fonts>
@@ -690,7 +690,7 @@ E1r!/,*0[*9.aFIR2&b-C#s<Xl5FH@[<=!#6V)uDBXnIr.F>oRZ7Dl%MLY\.?d>Mn
 6%Q2oYfNRF$$+ON<+]RUJmC0I<jlL.oXisZ;SYU[/7#<&37rclQKqeJe#,UF7Rgb1
 VNWFKf>nDZ4OTs0S!saG>GGKUlQ*Q?45:CI&4J'_2j<etJICj7e7nPMb=O6S7UOH<
 PO7r\I.Hu&e0d&E<.')fERr/l+*W,)q^D*ai5<uuLX.7g/>$XKrcYp0n+Xl_nU*O(
-l[$6Nn+Z_Nq0]s7hs]`XX1nZ8&94a\~>endstreamendobj176 0 obj<</Intent 189 0 R/Name(Layer 1)/Type/OCG/Usage 190 0 R>>endobj189 0 obj[/View/Design]endobj190 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 27.4)/Subtype/Artwork>>>>endobj174 0 obj<</BaseFont/GEELVV+Jost-Book/Encoding 191 0 R/FirstChar 24/FontDescriptor 192 0 R/LastChar 50/Subtype/Type1/Type/Font/Widths[525 576 583 546 450 780 300 564 0 0 0 0 0 0 0 0 0 0 0 0 308 0 0 0 600 0 569]>>endobj175 0 obj<</BaseFont/GEELVV+Jost-Medium/Encoding 193 0 R/FirstChar 1/FontDescriptor 194 0 R/LastChar 120/Subtype/Type1/Type/Font/Widths[578 473 625 604 503 1020 690 309 275 472 481 588 578 485 571 545 552 579 246 484 563 691 538 475 370 271 422 266 796 588 690 300 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 701 0 0 0 743 0 0 0 0 0 0 0 0 819 595 0 0 0 0 0 0 0 0 0 0 0 0 0 0 508 588 0 0 0 0 0 542 0 258 0 0 0 545 0 0 0 0 0 0 0 0 0 465]>>endobj193 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[1/uni0038/uni0031/uni0030/uni0032/uni0054/uni0057/uni0056/uni0066/uni0049/uni0079/uni004C/uni0070/uni0050/uni007A/uni0045/uni0075/uni002F/uni0053/uni006C/uni0063/uni006F/uni0043/uni0065/uni0076/uni0072/uni0074/uni0073/uni0069/uni006D/uni0064/uni0041]/Type/Encoding>>endobj194 0 obj<</Ascent 1035/CapHeight 700/CharSet(/uni0038/uni0031/uni0030/uni0032/uni0054/uni0057/uni0056/uni0066/uni0049/uni0079/uni004C/uni0070/uni0050/uni007A/uni0045/uni0075/uni002F/uni0053/uni006C/uni0063/uni006F/uni0043/uni0065/uni0076/uni0072/uni0074/uni0073/uni0069/uni006D/uni0064/uni0041/space/\D/H/Q/R/a/b/h/j/n/x)/Descent -356/Flags 32/FontBBox[-132 -356 1608 1035]/FontFamily(Jost* 500 Medium)/FontFile3 195 0 R/FontName/GEELVV+Jost-Medium/FontStretch/Normal/FontWeight 500/ItalicAngle 0/StemV 112/Type/FontDescriptor/XHeight 460>>endobj195 0 obj<</Filter/FlateDecode/Length 6312/Subtype/Type1C>>stream
+l[$6Nn+Z_Nq0]s7hs]`XX1nZ8&94a\~>endstreamendobj176 0 obj<</Intent 189 0 R/Name(Layer 1)/Type/OCG/Usage 190 0 R>>endobj189 0 obj[/View/Design]endobj190 0 obj<</CreatorInfo<</Creator(Adobe Illustrator 27.4)/Subtype/Artwork>>>>endobj174 0 obj<</BaseFont/GEELVV+Plus Jakarta Sans-Book/Encoding 191 0 R/FirstChar 24/FontDescriptor 192 0 R/LastChar 50/Subtype/Type1/Type/Font/Widths[525 576 583 546 450 780 300 564 0 0 0 0 0 0 0 0 0 0 0 0 308 0 0 0 600 0 569]>>endobj175 0 obj<</BaseFont/GEELVV+Plus Jakarta Sans-Medium/Encoding 193 0 R/FirstChar 1/FontDescriptor 194 0 R/LastChar 120/Subtype/Type1/Type/Font/Widths[578 473 625 604 503 1020 690 309 275 472 481 588 578 485 571 545 552 579 246 484 563 691 538 475 370 271 422 266 796 588 690 300 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 701 0 0 0 743 0 0 0 0 0 0 0 0 819 595 0 0 0 0 0 0 0 0 0 0 0 0 0 0 508 588 0 0 0 0 0 542 0 258 0 0 0 545 0 0 0 0 0 0 0 0 0 465]>>endobj193 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[1/uni0038/uni0031/uni0030/uni0032/uni0054/uni0057/uni0056/uni0066/uni0049/uni0079/uni004C/uni0070/uni0050/uni007A/uni0045/uni0075/uni002F/uni0053/uni006C/uni0063/uni006F/uni0043/uni0065/uni0076/uni0072/uni0074/uni0073/uni0069/uni006D/uni0064/uni0041]/Type/Encoding>>endobj194 0 obj<</Ascent 1035/CapHeight 700/CharSet(/uni0038/uni0031/uni0030/uni0032/uni0054/uni0057/uni0056/uni0066/uni0049/uni0079/uni004C/uni0070/uni0050/uni007A/uni0045/uni0075/uni002F/uni0053/uni006C/uni0063/uni006F/uni0043/uni0065/uni0076/uni0072/uni0074/uni0073/uni0069/uni006D/uni0064/uni0041/space/\D/H/Q/R/a/b/h/j/n/x)/Descent -356/Flags 32/FontBBox[-132 -356 1608 1035]/FontFamily(Plus Jakarta Sans* 500 Medium)/FontFile3 195 0 R/FontName/GEELVV+Plus Jakarta Sans-Medium/FontStretch/Normal/FontWeight 500/ItalicAngle 0/StemV 112/Type/FontDescriptor/XHeight 460>>endobj195 0 obj<</Filter/FlateDecode/Length 6312/Subtype/Type1C>>stream
 H‰¼WÿsTÕ¿ÉîË6äË&›İ°»q£ˆ!±3T…H©¶Ğá½Uk)T[4|Ip€(ZĞÎØ1)L$€0ñísÄv¦Hi
 8Sû¢ÃÈ
 QüU@ |‰ÀÛğRoÏçÜ—¤íĞ_î9÷{Ï÷sîy‘1Jx<Â9uu'U?nj^uçOê—6¬^ÏÒ÷zÒ%éäœ “.óşèÖöÌôÌ¼WÆ¦æï*»cMO÷…&òD±'*D•¨3Ä}bø©0Ä/Äñ”xZ´ˆâ·âw¢]l;Å›b¯Ø'ş&ş.>‹O=Eñ«¦L™zw+0EjÓj¨U`:ƒé
@@ -924,4 +924,4 @@ sŠgªhíåyz‡>‰ÛIş\Ë×8“Oä_÷ı(¿Î‹ºA;2 !úŒVeM~wù^£üÕ©á*çÁ•á²½?Öú¼”¡ÀÎ}¹ç÷9/
 0000169552 00000 n
 0000176444 00000 n
 0000179955 00000 n
-trailer<</Size 198/Root 1 0 R/Info 197 0 R/ID[<317F022A09CA448EBF1A54024C9893B7><A8CA97BC53B044F1A68F1EC295223261>]>>startxref180146%%EOF
+trailer<</Size 198/Root 1 0 R/Info 197 0 R/ID[<317F022A09CA448EBF1A54024C9893B7><A8CA97BC53B044F1A68F1EC295223261>]>>startxref180146%%EOF
