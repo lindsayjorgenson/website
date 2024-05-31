@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nhello there!\n",
+    "section": "",
+    "text": "hello there!\n\n\nThanks for stopping by! I am a data visualization engineer and R Shiny developer who specializes in human-centered, accessible development in R and Quarto. Programming in R is my favorite thing (aside from my lovely children, husband, and hoofed friends). I also like chess, puzzles, and Avatar the Last Airbender.\n\n\n\n    \n        \n        \n        \n    \n    \n        Skills\n        Education\n        Experience\n        Talks\n    \n\n\n\n\n\n  \n  \n    \n    \n        \n            \n                Programming\n                Data Viz & UX\n                Research & Data Sci\n                Leadership\n            \n        \n        \n            \n        \n    \n\n \n  \n  \n\n  \n   \n  Degrees\n   \n  2008 – 2011 \n  University of Kansas \n  BA, Psychology + Art   \n  \n  2012 – 2015 \n  Washington Univ. in St. Louis \n  Master of Public Health   \n  \n  2012 – 2015 \n  Washington Univ. in St. Louis \n  Master of Social Work  \n  \n  \n  Relevant Training\n   \n  Data Science with R   \n  Programming and Applied Statistics in R   \n  Programming in R   \n  R Best Practices   \n  Machine Learning with TidyModels   \n  Reporting with Quarto   \n  An Introduction to SQL with R   \n  Package Development   \n  Version Control Using Git & GitHub      \n  \n\n  \n\n  \n   Director, Business Intelligence | ASTHO  \n  I oversee ASTHO’s business intelligence planning and products (dashboards, data visualizations, data storytelling) and support the organization's use of data to inform\n  decision making. One of my team’s flagship products is the Profile dashboard, which has received recognition for its modern design and useability. In addition to\n  supporting ASTHO’s internal business intelligence needs, my team provides data services to partner organizations in dashboarding and data visualization. I am ASTHO's\n  subject matter expert in R programming, interactive data visualization and data storytelling, and custom dashboard development. \n  \n  \n   Previous  \n  Research Project Director | University of Kansas \n  \n  Project Manager | NC State University\n  \n  Project Manager | NC State University\n  \n  Research Scholar | Washington University in Saint Louis\n  \n\n  \n  Tailoring Shiny for Modern Users \n  ShinyConf 2024  \n  My talk at ShinyConf was attended by ~400 participants and focused on UI and UX in shiny app development. My slides are available here. After the presentation, my work was featured on Eric Nantz's podcast, R Weekly Highlights. Check it out starting around 19:30.\n  \n  \n  \n  What is Business Intelligence? \n  May 2024  \n  I gave a talk to 350 staff on business intelligence - what is it and how do we get there? More on this in my projects!\n  \n  \n  \n  The State of Public Health Workforce \n  April 2024  \n  A presentation given to state and territorial health agency workforce and HR directors. Slides here.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Lindsay Jorgenson",
@@ -7,21 +17,21 @@
     "text": "Hello there!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\nhello there!\n",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "\nCurrent and Past Projects\n",
     "section": "",
-    "text": "hello there!\n\n\nThanks for stopping by! I am a data visualization engineer who specializes in human-centered, accessible development in R Shiny and Quarto. Programming in R is my favorite thing (aside from my lovely children, husband, and hoofed friends). I also like chess, puzzles, and Avatar the Last Airbender.\n\n\n\n    \n        \n        \n        \n    \n    \n        Skills\n        Education\n        Experience\n        Talks\n    \n\n\n\n\n\n  \n  \n    \n    \n        \n            \n                Programming\n                Data Viz & UX\n                Research & Data Sci\n                Leadership\n            \n        \n        \n            \n        \n    \n\n \n  \n  \n\n  \n   \n  Degrees\n   \n  2008 – 2011 \n  University of Kansas \n  BA, Psychology + Art   \n  \n  2012 – 2015 \n  Washington Univ. in St. Louis \n  Master of Public Health   \n  \n  2012 – 2015 \n  Washington Univ. in St. Louis \n  Master of Social Work  \n  \n  \n  Relevant Training\n   \n  Data Science with R   \n  Programming and Applied Statistics in R   \n  Programming in R   \n  R Best Practices   \n  Machine Learning with TidyModels   \n  Reporting with Quarto   \n  An Introduction to SQL with R   \n  Package Development   \n  Version Control Using Git & GitHub      \n  \n\n  \n\n  \n   Director, Business Intelligence | ASTHO  \n  I oversee ASTHO’s business intelligence planning and products (dashboards, data visualizations, data storytelling) and support the organization's use of data to inform\n  decision making. One of my team’s flagship products is the Profile dashboard, which has received recognition for its modern design and useability. In addition to\n  supporting ASTHO’s internal business intelligence needs, my team provides data services to partner organizations in dashboarding and data visualization. I am ASTHO's\n  subject matter expert in R programming, interactive data visualization and data storytelling, and custom dashboard development. \n  \n  \n   Previous  \n  Research Project Director | University of Kansas \n  \n  Project Manager | NC State University\n  \n  Project Manager | NC State University\n  \n  Research Scholar | Washington University in Saint Louis\n  \n\n  \n  Tailoring Shiny for Modern Users \n  ShinyConf 2024  \n  My talk at ShinyConf was attended by ~400 participants and focused on UI and UX in shiny app development. My slides are available here. After the presentation, my work was featured on Eric Nantz's podcast, R Weekly Highlights. Check it out starting around 19:30.\n  \n  \n  \n  What is Business Intelligence? \n  May 2024  \n  I gave a talk to 350 staff on business intelligence - what is it and how do we get there? More on this in my projects!\n  \n  \n  \n  The State of Public Health Workforce \n  April 2024  \n  A presentation given to state and territorial health agency workforce and HR directors. Slides here.",
+    "text": "Current and Past Projects\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is Business Intelligence?\n\n\nImages from a talk given to colleauges on developing a business intelligence strategy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfile Data Stories\n\n\nAdding context to a data dashboard\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Governor’s Council on Tax Reform\n\n\nA report created while at the University of Kansas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Profile Dashboard\n\n\nASTHO’s Profile Dashboard - A Shiny App\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTelehealth Needs Assessment\n\n\nInteractive findings of ASTHO’s telehealth survey.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Capacity for Data Visualization\n\n\nAn effort to build a tool that helps non-R users leverage R for data viz.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
     "crumbs": [
-      "About"
+      "Projects"
     ]
   },
   {
-    "objectID": "projects/04_dash/index.html",
-    "href": "projects/04_dash/index.html",
-    "title": "Building Capacity for Data Visualization",
+    "objectID": "projects/06_telehealth/index.html",
+    "href": "projects/06_telehealth/index.html",
+    "title": "Telehealth Needs Assessment",
     "section": "",
-    "text": "This effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
+    "text": "More on this to come once the story is published!"
   },
   {
     "objectID": "projects/05_tax/index.html",
@@ -59,14 +69,11 @@
     "text": "We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "\nCurrent and Past Projects\n",
+    "objectID": "projects/04_dash/index.html",
+    "href": "projects/04_dash/index.html",
+    "title": "Building Capacity for Data Visualization",
     "section": "",
-    "text": "Current and Past Projects\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhat is Business Intelligence?\n\n\nImages from a talk given to colleauges on developing a business intelligence strategy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProfile Data Stories\n\n\nAdding context to a data dashboard\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Governor’s Council on Tax Reform\n\n\nA report created while at the University of Kansas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Profile Dashboard\n\n\nASTHO’s Profile Dashboard - A Shiny App\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding Capacity for Data Visualization\n\n\nAn effort to build a tool that helps non-R users leverage R for data viz.\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "Projects"
-    ]
+    "text": "This effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
   },
   {
     "objectID": "gallery.html",
