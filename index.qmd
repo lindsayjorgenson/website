@@ -34,7 +34,7 @@
   
     <body>
     <div class="container">
-            <p>I specialize in R programming, R Shiny application development, and Quarto, and I use these tools to inform decision making and add a bit of emotion to the multitude of numbers that pass our way. I am also quite skilled in public speaking, chess, puzzles, and watching Avatar the Last Airbender.</p>
+            <p>I specialize in R programming, R Shiny application development, and Quarto. I use these tools to inform decision making and add a bit of emotion to the multitude of numbers that pass our way. I am also quite skilled in public speaking, chess, puzzles, and watching Avatar the Last Airbender.</p>
             <br>
             <br>
         <div class="select-wrapper">

@@ -12,13 +12,9 @@ draft: false
 
 <br> 
 
-We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility. 
-
-<br>
-<center>
 ```{=html}
 <style>
-    #wrap { width: 1430px; 
+    #wrap { width: 1900px; 
             height: 970px; 
             position:relative;}
     #frame { -ms-zoom: 0.75; 

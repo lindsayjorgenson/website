@@ -18,3 +18,4 @@ This effort has just started -- but the objective is to develop a shiny applicat
 <center>
 ![](hex.png){fig-alt="A mockup of a shiny application that allows users to generate data visualizations." width=80%}
 </center>
+<br><br><br>
