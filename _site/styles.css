@@ -43,7 +43,7 @@ p {
 }
 
 .nav-footer-right {
-  color: black !important;
+  color: #fff;
   font-weight: 600 !important;
   padding-top: 20px;
 }
@@ -127,8 +127,8 @@ footer.footer .nav-footer, #quarto-header>nav {
   }
 
   .about-column {
-    padding-right: 10%;
-    padding-left: 30%;
+    padding-right: 6%;
+    padding-left: 40%;
   }
 
 }
@@ -224,40 +224,34 @@ h2, .h2 {
 
 @media (max-width: 475px) {
     #links {
-        display: none;
-        flex-direction: column;
-        width: 200px;
-        position: absolute;
-        left: 15%;
-        top: 97%;
-        border-radius: 0px 0px 50px 50px;
-        background-color: #737038;
-        padding: 10px 0;
-        font-size: 1.1em !important;
-        z-index: 1;
+      display: none;
+      flex-direction: column;
+      background-color: #E7E1D8;
+      z-index: 1;
+      padding-top: 30px !important;
     }
-    #links a {
+
+  #links a {
     display: block;
-    font-size: 1.1em !important;
     margin-bottom: 10px;
     padding: 10px 20px;
     text-decoration: none;
-    color: #fff !important;
+    color: #222326 !important;
     border-radius: 0 0 0px 0px;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
     margin-top: -17px !important;
     border: none !important;
   }
+
   #links a:hover,
   #links a.active {
-    background-color: #fff;
-    color: #2B77B7 !important;
-    font-size: 1.1em !important;
-    border: none !important;
+        color: white !important;
   }
+
     .hamburger {
         display: flex;
     }
+
     #links.show {
         display: flex;
     }
@@ -431,22 +425,31 @@ body, html {
 
 .other-about {
   padding-top: 5%;
+  padding-left: 4%;
 }
 
 @media (min-width: 1255px) {
   #quarto-content>* {
     padding-left: 4% !important;
-    padding-right: 5% !important;
+    padding-right: 4% !important;
     padding-top: 2% !important;
   }
 }
 
 @media (max-width: 1255px) {
   #quarto-content>* {
-    padding-left: 0% !important;
-    padding-right: 0% !important;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
     padding-top: 4% !important;
   }
+}
+
+.quarto-secondary-nav nav.quarto-page-breadcrumbs a {
+  color: white !important;
+}
+
+.quarto-secondary-nav .quarto-btn-toggle {
+    color: white !important;
 }
 
 

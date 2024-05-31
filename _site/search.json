@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Lindsay Jorgenson",
+    "section": "",
+    "text": "Hello there!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Lindsay Jorgenson",
@@ -10,11 +17,53 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "projects/04_dash/index.html",
+    "href": "projects/04_dash/index.html",
+    "title": "Building Capacity for Data Visualization",
+    "section": "",
+    "text": "This effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
+  },
+  {
+    "objectID": "projects/03_profile/index.html",
+    "href": "projects/03_profile/index.html",
+    "title": "The Profile Dashboard",
+    "section": "",
+    "text": "We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility."
+  },
+  {
+    "objectID": "projects/02_stories/index.html",
+    "href": "projects/02_stories/index.html",
+    "title": "Profile Data Stories",
+    "section": "",
+    "text": "We have added stories to our data application to connect data to action. Check out one of them below. They are available at www.astho.org/profile."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
     "title": "Lindsay Jorgenson",
     "section": "",
-    "text": "Hello there!"
+    "text": "Coming soon!"
+  },
+  {
+    "objectID": "projects/01_bi/index.html",
+    "href": "projects/01_bi/index.html",
+    "title": "What is Business Intelligence?",
+    "section": "",
+    "text": "Business intelligence is strategically using data to inform decision making.\n\n \n\nStep 1: Coordinated data collection and documented datasets\n\n\n \n\nStep 2: Integrated and centrally housed datasets\n\n\n   \n\nStep 3: Key metrics that are used to answer operations and program questions\n\n      \n\nStep 4: Data science and analytics to uncover insights and predict needs\n\n          \n\nStep 5: Automated reports and dashboards that make insights accessible"
+  },
+  {
+    "objectID": "projects/05_tax/index.html",
+    "href": "projects/05_tax/index.html",
+    "title": "The Governor’s Council on Tax Reform",
+    "section": "",
+    "text": "Below are a few examples of the report. The full report is available here."
+  },
+  {
+    "objectID": "projects/06_telehealth/index.html",
+    "href": "projects/06_telehealth/index.html",
+    "title": "Telehealth Needs Assessment",
+    "section": "",
+    "text": "More on this to come once the story is published!"
   },
   {
     "objectID": "projects.html",
@@ -25,55 +74,6 @@
     "crumbs": [
       "Projects"
     ]
-  },
-  {
-    "objectID": "projects/06_telehealth/index.html",
-    "href": "projects/06_telehealth/index.html",
-    "title": "Telehealth Needs Assessment",
-    "section": "",
-    "text": "More on this to come once the story is published!"
-  },
-  {
-    "objectID": "projects/05_tax/index.html",
-    "href": "projects/05_tax/index.html",
-    "title": "The Governor’s Council on Tax Reform",
-    "section": "",
-    "text": "Below are a few examples of the report. The full report is available here."
-  },
-  {
-    "objectID": "projects/01_bi/index.html",
-    "href": "projects/01_bi/index.html",
-    "title": "What is Business Intelligence?",
-    "section": "",
-    "text": "Business intelligence is strategically using data to inform decision making.\n\n \n\nStep 1: Coordinated data collection and documented datasets\n\n\n \n\nStep 2: Integrated and centrally housed datasets\n\n\n   \n\nStep 3: Key metrics that are used to answer operations and program questions\n\n      \n\nStep 4: Data science and analytics to uncover insights and predict needs\n\n          \n\nStep 5: Automated reports and dashboards that make insights accessible"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Lindsay Jorgenson",
-    "section": "",
-    "text": "Coming soon!"
-  },
-  {
-    "objectID": "projects/02_stories/index.html",
-    "href": "projects/02_stories/index.html",
-    "title": "Profile Data Stories",
-    "section": "",
-    "text": "We have added stories to our data application to connect data to action. Check out one of them below. They are available at www.astho.org/profile."
-  },
-  {
-    "objectID": "projects/03_profile/index.html",
-    "href": "projects/03_profile/index.html",
-    "title": "The Profile Dashboard",
-    "section": "",
-    "text": "We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility."
-  },
-  {
-    "objectID": "projects/04_dash/index.html",
-    "href": "projects/04_dash/index.html",
-    "title": "Building Capacity for Data Visualization",
-    "section": "",
-    "text": "This effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
   },
   {
     "objectID": "gallery.html",
