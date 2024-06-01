@@ -37,7 +37,9 @@ website:
 format:
   html:
     theme: [default, my_styles.scss]
-    css: styles.css
+    css:
+    - styles.css
+    - pushbar.css
     mainfont: Plus Jakarta Sans
     page-layout: full
     grid:
@@ -48,6 +50,7 @@ format:
     include-in-header:
       text: |
         <script type="text/javascript" src="link_content.js"></script>
+        <script type="text/javascript" src="pushbar.js"></script>
         <script type="text/html" src="gtm_code_head.html"></script>
         <script type="text/html" src="gtm_code_body.html"></script>
 

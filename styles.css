@@ -109,55 +109,26 @@ footer.footer .nav-footer, #quarto-header>nav {
     z-index: 1000; /* Ensure the footer is in front of everything else */
 }
 
-@media (min-width: 1525px) {
-  .my-content {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    padding: 5% !important;
-    background-color: #E7E1D8; /* Background color for the second column */
-    flex: 5;
-    color: #222326; /* Text color for readability */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    box-sizing: border-box; /* Ensure padding is included in the width/height */
-    height: 100vh; /* Ensure this column takes up the full viewport height */
-    overflow: hidden; /* Prevent this column from causing scrolling */
-  }
 
-  .about-column {
-    padding-right: 6%;
-    padding-left: 40%;
-  }
-
+.my-content {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  padding: 5% !important;
+  background-color: #E7E1D8; /* Background color for the second column */
+  flex: 5;
+  color: #222326; /* Text color for readability */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  box-sizing: border-box; /* Ensure padding is included in the width/height */
+  height: 100vh; /* Ensure this column takes up the full viewport height */
+  overflow: hidden; /* Prevent this column from causing scrolling */
 }
 
-@media (max-width: 1525px) {
-  .my-content {
-    padding: 5% !important;
-    flex: 5;
-    color: #222326; /* Text color for readability */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    background-color: #E7E1D8; /* Background color for the second column */
-    order: 2; /* Ensure it appears after the about-column */
-  }
-
-  .about-column {
-    width: 100%;
-    order: 1; /* Ensure it appears first */
-    padding-left: 40% !important;
-    padding-right: 10% !important;
-    padding-top: 5% !important;
-    padding-bottom: 5%;
-  }
-
-  .home {
-    display: flex;
-    flex-direction: column; /* Stack columns vertically */
-  }
+.about-column {
+  padding-right: 6%;
+  padding-left: 40%;
 }
 
 
@@ -291,8 +262,7 @@ body, html {
 
 .select-wrapper {
     position: absolute;
-    right: 15%;
-    transform: translateX(-50%);
+    right: 50%;
     display: inline-block;
     width: 190px; /* Adjust width as needed */
 }
@@ -324,34 +294,6 @@ body, html {
 }
 
 
-@media (max-width: 1255px) {
-    .select-wrapper {
-        position: relative; /* Change to relative positioning */
-        left: 23% !important;
-        top: auto; /* Reset top position */
-        left: auto; /* Reset left position */
-        transform: none; /* Reset transform */
-        display: flex;
-        justify-content: center !important;
-        padding: 10px 0; /* Add padding if needed */
-        width: 190px; /* Adjust width as needed */
-
-    }
-
-    .select-wrapper select {
-        width: 100%; /* Adjust width for smaller screens */
-        padding: 10px 15px; /* Adjust padding if needed */
-        font-size: 14px; /* Adjust font size for smaller screens */
-    }
-
-    .select-wrapper::after {
-        right: 10px; /* Adjust position of the arrow */
-    }
-
-    .skills-container {
-      margin-bottom: 60px; /* Adjust margin to ensure space for the dropdown */
-  }
-}
 
 
 .skills-container {
@@ -425,25 +367,17 @@ body, html {
 }
 
 .other-about {
-  padding-top: 5%;
-  padding-left: 4%;
+  padding-top: 3%;
+  padding-left: 10%;
 }
 
-@media (min-width: 1525px) {
-  #quarto-content>* {
-    padding-left: 4% !important;
-    padding-right: 4% !important;
-    padding-top: 2% !important;
-  }
+
+#quarto-content>* {
+  padding-left: 4% !important;
+  padding-right: 4% !important;
+  padding-top: 2% !important;
 }
 
-@media (max-width: 1525px) {
-  #quarto-content>* {
-    padding-left: 1% !important;
-    padding-right: 1% !important;
-    padding-top: 1% !important;
-  }
-}
 
 .quarto-secondary-nav nav.quarto-page-breadcrumbs a {
   color: white !important;
@@ -453,3 +387,32 @@ body, html {
     color: white !important;
 }
 
+
+/* --------------------------------------------- for the pushbar close button */
+button[data-pushbar-close] {
+    background: #2B77B7 !important; /* Initial background color */
+    border: none;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 25px; /* Makes the button pill-shaped */
+    transition: background-color 0.3s ease;
+}
+
+button[data-pushbar-close]:hover,
+button[data-pushbar-close]:focus {
+    background: #2B77B7 !important; /* Background color when hovered or focused */
+    outline: none; /* Removes default focus outline */
+}
+
+
+/* --------------------------------------- for the pushbar sizing and spacing */
+.content-item {
+    width: 100%;
+    padding-right: 300px;
+    padding-left: 100px;
+    margin-right: auto;
+    padding-top: 9% !important;
+    max-width: 50em !important;
+}
