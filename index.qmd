@@ -60,12 +60,12 @@
       </center>
     </body>
   </div>
-   <div style="padding-left: 80px; font-size: 1.1em; position: absolute; bottom: 100px; right: 250px;">
-      <button data-pushbar-close style="background: #2B77B7; border: none; color: white; font: inherit; cursor: pointer; padding: 10px 20px; padding-top: 7px; border-radius: 50px; transition: background-color 0.3s ease;">
-          x
-      </button>
-  </div>
-</div> 
+        <div style="padding-left: 80px; font-size: 1.1em; position: absolute; bottom: 100px; right: 250px;">
+            <button data-pushbar-close aria-label="Close">
+                x
+            </button>
+        </div>
+    </div> 
 
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
@@ -118,12 +118,12 @@
     </center>
   </div>
   
-   <div style="padding-left: 80px; font-size: 1.1em; position: absolute; bottom: 100px; right: 250px;">
-      <button data-pushbar-close style="background: #2B77B7; border: none; color: white; font: inherit; cursor: pointer; padding: 10px 20px; padding-top: 7px; border-radius: 50px; transition: background-color 0.3s ease;">
-          x
-      </button>
-  </div>
-</div> 
+        <div style="padding-left: 80px; font-size: 1.1em; position: absolute; bottom: 100px; right: 250px;">
+            <button data-pushbar-close aria-label="Close">
+                x
+            </button>
+        </div>
+    </div> 
 
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
@@ -173,12 +173,12 @@
     <br>
   </div>
 
-   <div style="padding-left: 80px; font-size: 1.1em; position: absolute; bottom: 100px; right: 250px;">
-      <button data-pushbar-close style="background: #2B77B7; border: none; color: white; font: inherit; cursor: pointer; padding: 10px 20px; padding-top: 7px; border-radius: 50px; transition: background-color 0.3s ease;">
-          x
-      </button>
-  </div>
-</div> 
+        <div style="padding-left: 80px; font-size: 1.1em; position: absolute; bottom: 100px; right: 250px;">
+            <button data-pushbar-close aria-label="Close">
+                x
+            </button>
+        </div>
+    </div> 
 
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {

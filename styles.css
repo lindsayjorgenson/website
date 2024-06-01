@@ -95,8 +95,13 @@ div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents, nav.sideba
   margin-top: 3em !important;
 }
 
-footer.footer .nav-footer, #quarto-header>nav {
+footer.footer .nav-footer {
   background-color: #C75334 !important;
+  border: none !important;
+}
+
+#quarto-header>nav {
+  background-color: #2B77B7 !important;
   border: none !important;
 }
 
