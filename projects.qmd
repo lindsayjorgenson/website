@@ -1,15 +1,17 @@
 ---
 listing:
-    contents: projects
-    sort: "date desc"
-    type: grid
-    categories: false
-    sort-ui: false
-    filter-ui: false
-    feed: false
+  contents: projects
+  sort: "date desc"
+  type: grid
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  feed: false
 ---
+
 
 <h1> Current and Past Projects </h1>
 
 <br>
 <br>
+

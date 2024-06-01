@@ -1,4 +1,4 @@
-::: {.grid}
+::: {.grid .home}
 
 ::: {.g-col-8}
 :::{ class="other-about"}
@@ -51,8 +51,6 @@
         </div>
     </div>
 </body>
- 
-  
   </div>
 
   <div id="content2" class="content-item" style="display: none;">
@@ -109,6 +107,7 @@
 
 </div>
 ```
+
 
 :::
 

@@ -116,6 +116,3 @@ function updateSkills() {
 
 // Initial load
 document.addEventListener('DOMContentLoaded', updateSkills);
-
-
-///
