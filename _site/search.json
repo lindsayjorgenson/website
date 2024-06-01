@@ -24,13 +24,6 @@
     "text": "This effort has just started – but the objective is to develop a shiny application (based on the rendering below) that leverages my {astho.viz} package for data visualization. The goal is to build capacity at my organization for more people to easily develop interactive and static data visualizations that use a consistent style and theme and contain key accessibility features"
   },
   {
-    "objectID": "projects/03_profile/index.html",
-    "href": "projects/03_profile/index.html",
-    "title": "The Profile Dashboard",
-    "section": "",
-    "text": "We are now underway to make this app align with WCAG 2.2 compliance and are trilled to further build out its accessibility."
-  },
-  {
     "objectID": "projects/02_stories/index.html",
     "href": "projects/02_stories/index.html",
     "title": "Profile Data Stories",
@@ -57,13 +50,6 @@
     "title": "The Governor’s Council on Tax Reform",
     "section": "",
     "text": "Below are a few examples of the report. The full report is available here."
-  },
-  {
-    "objectID": "projects/06_telehealth/index.html",
-    "href": "projects/06_telehealth/index.html",
-    "title": "Telehealth Needs Assessment",
-    "section": "",
-    "text": "More on this to come once the story is published!"
   },
   {
     "objectID": "projects.html",

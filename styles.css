@@ -109,7 +109,7 @@ footer.footer .nav-footer, #quarto-header>nav {
     z-index: 1000; /* Ensure the footer is in front of everything else */
 }
 
-@media (min-width: 1255px) {
+@media (min-width: 1525px) {
   .my-content {
     position: fixed;
     top: 0px;
@@ -133,7 +133,7 @@ footer.footer .nav-footer, #quarto-header>nav {
 
 }
 
-@media (max-width: 1255px) {
+@media (max-width: 1525px) {
   .my-content {
     padding: 5% !important;
     flex: 5;
@@ -148,9 +148,10 @@ footer.footer .nav-footer, #quarto-header>nav {
   .about-column {
     width: 100%;
     order: 1; /* Ensure it appears first */
-    padding-left: 10% !important;
+    padding-left: 40% !important;
     padding-right: 10% !important;
     padding-top: 5% !important;
+    padding-bottom: 5%;
   }
 
   .grid {
@@ -428,7 +429,7 @@ body, html {
   padding-left: 4%;
 }
 
-@media (min-width: 1255px) {
+@media (min-width: 1525px) {
   #quarto-content>* {
     padding-left: 4% !important;
     padding-right: 4% !important;
@@ -436,11 +437,11 @@ body, html {
   }
 }
 
-@media (max-width: 1255px) {
+@media (max-width: 1525px) {
   #quarto-content>* {
     padding-left: 1% !important;
     padding-right: 1% !important;
-    padding-top: 4% !important;
+    padding-top: 1% !important;
   }
 }
 
@@ -451,7 +452,4 @@ body, html {
 .quarto-secondary-nav .quarto-btn-toggle {
     color: white !important;
 }
-
-
-
 
